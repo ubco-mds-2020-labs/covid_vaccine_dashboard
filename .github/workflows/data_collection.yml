@@ -37,7 +37,7 @@ jobs:
           time: '5s'
       - name: Run process_vaccine
         run: |
-        python src/process_vaccine_data.py
+          python src/process_vaccine_data.py
       - name: Commit CSVs to repo
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
