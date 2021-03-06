@@ -1,0 +1,3 @@
+# Requirements package for GitHub Actions
+pandas
+numpy
