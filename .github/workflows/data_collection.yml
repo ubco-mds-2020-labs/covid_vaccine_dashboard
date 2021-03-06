@@ -44,6 +44,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -f data/raw/merged_vaccine_data.csv
           git add -f data/processed/processed_vaccination_data.csv
+          git add -f logs/*
           git commit -m "Fetching new vaccine data"
       - name: Push CSVs to repo
         uses: ad-m/github-push-action@master
