@@ -2,3 +2,6 @@ INFO:root:2021-03-06 11:53:14.308986: starting script execution
 WARNING:root:2021-03-06 11:53:15.296457: current CSV not found, new one will be created
 INFO:root:2021-03-06 11:53:15.336361: new data found, writing to CSV
 INFO:root:2021-03-06 11:53:15.336474: script executed successfully
+INFO:root:2021-03-06 11:55:34.742493: starting script execution
+INFO:root:2021-03-06 11:55:35.193875: no new data found
+INFO:root:2021-03-06 11:55:35.193996: script executed successfully
