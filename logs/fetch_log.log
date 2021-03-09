@@ -939,3 +939,7 @@ INFO:root:2021-03-09 18:34:43.444669: script executed successfully
 INFO:root:2021-03-09 18:54:22.790091: starting script execution
 INFO:root:2021-03-09 18:54:23.339104: no new data found
 INFO:root:2021-03-09 18:54:23.339236: script executed successfully
+INFO:root:2021-03-09 19:01:10.727803: starting script execution
+WARNING:root:2021-03-09 19:01:11.529122: countries out of sync
+INFO:root:2021-03-09 19:01:11.586958: new data found, writing to CSV
+INFO:root:2021-03-09 19:01:11.587097: script executed successfully
