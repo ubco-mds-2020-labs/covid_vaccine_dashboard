@@ -16,6 +16,8 @@ if os.path.isfile('logs/flag.txt'):
 ## Read in local datasets
 try:
     us_states=pd.read_csv('data/raw/all_states.csv',index_col=0)
+    # Add country name to get national data
+    us_states.iloc[-1]='United States'
     ca_pop_est=pd.read_csv('data/raw/ca_pop_est.csv',index_col=0)
     regions=pd.read_csv('data/raw/us_canada_regions.csv')
 except:
