@@ -20,17 +20,16 @@ data_div = data_div.rename(columns={0: 'div_vaccines_per_capita'})
 max_date_df = data[data.groupby('location').date.transform('max') == data['date']]
 max_date_df['per_100_raw'] = 100*max_date_df['total_vaccinations_raw']/max_date_df['pop_est']
 # -------------------------------------------------------------------------------------
-def plot_altair(value):
-    chart = alt.Chart(data).mark_line().encode(
-        x='date',
-        y='per_100_raw',
-        color=alt.Color(value, legend=alt.Legend(title="Location")))
-        #tooltip=xcol).interactive()
-    print(value)
-        
-    return value
-    #return chart.to_html()
 
+def plot_altair(my_dropdown):
+    chart = alt.Chart(data).mark_line().encode(
+        x='date:T',
+        y='total_vaccinations_int:Q',
+        color=alt.Color('location', legend=alt.Legend(title="Location"))).\
+        transform_filter(alt.FieldOneOfPredicate(field='location',oneOf=my_dropdown))
+        #tooltip=xcol).interactive()
+        
+    return chart.to_html()
 # -------------------------------------------------------------------------------------
 # Setup app and layout/frontend
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -39,7 +38,7 @@ app.layout = dbc.Container([
   
             dcc.Dropdown(
                 id='my_dropdown',
-                value='Alabama',  # REQUIRED to show the plot on the first page load
+                value=['Alabama'],  # REQUIRED to show the plot on the first page load
                 options=[{'label': i, 'value': i} for i in data.location.unique()],
                 placeholder='Select locations...', multi=True),
 
@@ -49,13 +48,9 @@ app.layout = dbc.Container([
                 end_date_placeholder_text="End Period",
                 calendar_orientation='vertical',),
 
-            html.Iframe(
-            id='my_line_chart',
-            style={'border-width': '0', 'width': '100%', 'height': '400px'},
-            #srcDoc=plot_altair(xcol='date')),
-            ),
-
-            html.Div(id='dd-output-container')
+             html.Iframe(
+                id='scatter',
+                style={'border-width': '0', 'width': '100%', 'height': '400px'}),
 
             ])
 
@@ -67,11 +62,11 @@ app.layout = dbc.Container([
 #    Output('output-container-date-picker-range', 'children'),
 #    [Input('my-date-picker-range', 'start_date'),
 #     Input('my-date-picker-range', 'end_date')]
-    dash.dependencies.Output('dd-output-container', 'children'),
-    [dash.dependencies.Input('my_dropdown', 'value')])
+    dash.dependencies.Output('scatter', 'srcDoc'),
+    dash.dependencies.Input('my_dropdown', 'value'))
 
-def update_output(value):
-    return plot_altair(value)
+def update_output(my_dropdown):
+    return plot_altair(my_dropdown)
 
 if __name__ == '__main__':
     app.run_server(debug=True)

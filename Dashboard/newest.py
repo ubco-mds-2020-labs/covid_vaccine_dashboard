@@ -25,6 +25,7 @@ def plot_altair(xcol):
         x=xcol,
         y='div_vaccines_per_capita',
         tooltip=xcol).interactive()
+        print(xcol)
     return chart.to_html()
 # -------------------------------------------------------------------------------------
 # Setup app and layout/frontend
