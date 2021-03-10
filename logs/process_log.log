@@ -1036,3 +1036,6 @@ INFO:root:2021-03-10 08:56:53.777182: script executed successfully
 INFO:root:2021-03-10 08:58:57.842109: starting script execution
 INFO:root:2021-03-10 08:58:57.842197: new data found, processing
 INFO:root:2021-03-10 08:58:58.254613: script executed successfully
+INFO:root:2021-03-10 09:14:44.175528: starting script execution
+INFO:root:2021-03-10 09:14:44.175639: no new data to process
+INFO:root:2021-03-10 09:14:44.175682: script executed successfully
