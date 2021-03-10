@@ -80,7 +80,7 @@ try:
     # Start Canada dates at the same time as the USA
     all_vac=all_vac[all_vac['date']>=all_vac[all_vac['country']=='usa']['date'].min()]
     # Add divisions
-    all_vac=pd.merge(left=all_vac,right=regions.drop(columns='region'),on='location')
+    all_vac=pd.merge(left=all_vac,right=regions.drop(columns='region'),on='location',how='outer')
     # Remove data after latest date (data can be out of sync between two countries)
     latest_date=np.min([all_vac[all_vac['country']=='canada']['date'].max(),all_vac[all_vac['country']=='usa']['date'].max()])
     if latest_date<np.max([all_vac[all_vac['country']=='canada']['date'].max(),all_vac[all_vac['country']=='usa']['date'].max()]):
