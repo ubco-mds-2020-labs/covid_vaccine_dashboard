@@ -1823,63 +1823,6 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,New Mexico,usa,814029.0,901345.0,2096904.2392526008,Mountain
 2021-03-08,New Mexico,usa,833881.0,901345.0,2096904.2392526008,Mountain
 2021-03-09,New Mexico,usa,839018.0,972065.0,2096904.2392526008,Mountain
-2021-01-12,New York State,usa,579532.0,1622100.0,19454035.932890214,Middle Atlantic
-2021-01-13,New York State,usa,632473.0,1796850.0,19454035.932890214,Middle Atlantic
-2021-01-14,New York State,usa,688576.0,1872625.0,19454035.932890214,Middle Atlantic
-2021-01-15,New York State,usa,757466.0,1884325.0,19454035.932890214,Middle Atlantic
-2021-01-16,New York State,usa,,,19454035.932890214,Middle Atlantic
-2021-01-17,New York State,usa,,,19454035.932890214,Middle Atlantic
-2021-01-18,New York State,usa,,,19454035.932890214,Middle Atlantic
-2021-01-19,New York State,usa,1000319.0,1884325.0,19454035.932890214,Middle Atlantic
-2021-01-20,New York State,usa,1046490.0,2057875.0,19454035.932890214,Middle Atlantic
-2021-01-21,New York State,usa,1116441.0,2213975.0,19454035.932890214,Middle Atlantic
-2021-01-22,New York State,usa,1203994.0,2367075.0,19454035.932890214,Middle Atlantic
-2021-01-23,New York State,usa,1282515.0,2395950.0,19454035.932890214,Middle Atlantic
-2021-01-24,New York State,usa,1365404.0,2395950.0,19454035.932890214,Middle Atlantic
-2021-01-25,New York State,usa,1418313.0,2395950.0,19454035.932890214,Middle Atlantic
-2021-01-26,New York State,usa,1453972.0,2401900.0,19454035.932890214,Middle Atlantic
-2021-01-27,New York State,usa,1518697.0,2744450.0,19454035.932890214,Middle Atlantic
-2021-01-28,New York State,usa,1630504.0,2812625.0,19454035.932890214,Middle Atlantic
-2021-01-29,New York State,usa,1703218.0,2823575.0,19454035.932890214,Middle Atlantic
-2021-01-30,New York State,usa,1791935.0,2932775.0,19454035.932890214,Middle Atlantic
-2021-01-31,New York State,usa,1875462.0,2932775.0,19454035.932890214,Middle Atlantic
-2021-02-01,New York State,usa,1927665.0,2932775.0,19454035.932890214,Middle Atlantic
-2021-02-02,New York State,usa,1966446.0,2987075.0,19454035.932890214,Middle Atlantic
-2021-02-03,New York State,usa,2003170.0,3241250.0,19454035.932890214,Middle Atlantic
-2021-02-04,New York State,usa,2060301.0,3377325.0,19454035.932890214,Middle Atlantic
-2021-02-05,New York State,usa,2132305.0,3378300.0,19454035.932890214,Middle Atlantic
-2021-02-06,New York State,usa,2225316.0,3378300.0,19454035.932890214,Middle Atlantic
-2021-02-07,New York State,usa,2336867.0,3378300.0,19454035.932890214,Middle Atlantic
-2021-02-08,New York State,usa,2418074.0,3378300.0,19454035.932890214,Middle Atlantic
-2021-02-09,New York State,usa,2441693.0,3428000.0,19454035.932890214,Middle Atlantic
-2021-02-10,New York State,usa,2535824.0,3731300.0,19454035.932890214,Middle Atlantic
-2021-02-11,New York State,usa,2620734.0,3843300.0,19454035.932890214,Middle Atlantic
-2021-02-12,New York State,usa,2712546.0,3870175.0,19454035.932890214,Middle Atlantic
-2021-02-13,New York State,usa,2821335.0,3941225.0,19454035.932890214,Middle Atlantic
-2021-02-14,New York State,usa,2925186.0,3969050.0,19454035.932890214,Middle Atlantic
-2021-02-15,New York State,usa,,,19454035.932890214,Middle Atlantic
-2021-02-16,New York State,usa,3110432.0,3993825.0,19454035.932890214,Middle Atlantic
-2021-02-17,New York State,usa,3178252.0,4018450.0,19454035.932890214,Middle Atlantic
-2021-02-18,New York State,usa,3253874.0,4022525.0,19454035.932890214,Middle Atlantic
-2021-02-19,New York State,usa,3447521.0,4165325.0,19454035.932890214,Middle Atlantic
-2021-02-20,New York State,usa,3535997.0,4165325.0,19454035.932890214,Middle Atlantic
-2021-02-21,New York State,usa,3621973.0,4171175.0,19454035.932890214,Middle Atlantic
-2021-02-22,New York State,usa,3711664.0,4171175.0,19454035.932890214,Middle Atlantic
-2021-02-23,New York State,usa,3772702.0,4836200.0,19454035.932890214,Middle Atlantic
-2021-02-24,New York State,usa,3821059.0,5349415.0,19454035.932890214,Middle Atlantic
-2021-02-25,New York State,usa,3879303.0,5514665.0,19454035.932890214,Middle Atlantic
-2021-02-26,New York State,usa,3955191.0,5627205.0,19454035.932890214,Middle Atlantic
-2021-02-27,New York State,usa,4060431.0,5757205.0,19454035.932890214,Middle Atlantic
-2021-02-28,New York State,usa,4225250.0,5757205.0,19454035.932890214,Middle Atlantic
-2021-03-01,New York State,usa,4355544.0,5757205.0,19454035.932890214,Middle Atlantic
-2021-03-02,New York State,usa,4495821.0,5987175.0,19454035.932890214,Middle Atlantic
-2021-03-03,New York State,usa,4607571.0,6443525.0,19454035.932890214,Middle Atlantic
-2021-03-04,New York State,usa,4730809.0,6565865.0,19454035.932890214,Middle Atlantic
-2021-03-05,New York State,usa,4864621.0,6849315.0,19454035.932890214,Middle Atlantic
-2021-03-06,New York State,usa,5042187.0,7010045.0,19454035.932890214,Middle Atlantic
-2021-03-07,New York State,usa,5237597.0,7010045.0,19454035.932890214,Middle Atlantic
-2021-03-08,New York State,usa,5416301.0,7010045.0,19454035.932890214,Middle Atlantic
-2021-03-09,New York State,usa,5525344.0,7147625.0,19454035.932890214,Middle Atlantic
 2021-01-12,North Carolina,usa,211610.0,836450.0,10487201.478743615,South Atlantic
 2021-01-13,North Carolina,usa,266938.0,852000.0,10487201.478743615,South Atlantic
 2021-01-14,North Carolina,usa,268212.0,969700.0,10487201.478743615,South Atlantic
@@ -2906,6 +2849,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Wyoming,usa,178035.0,236065.0,578741.854802629,Mountain
 2021-03-08,Wyoming,usa,185580.0,236065.0,578741.854802629,Mountain
 2021-03-09,Wyoming,usa,185813.0,246125.0,578741.854802629,Mountain
+2020-12-20,Alberta,canada,2148.0,3900.0,4428112.0,Prairies
+2020-12-21,Alberta,canada,2148.0,3900.0,4428112.0,Prairies
+2020-12-22,Alberta,canada,3074.0,29250.0,4428112.0,Prairies
+2020-12-23,Alberta,canada,3636.0,29250.0,4428112.0,Prairies
+2020-12-24,Alberta,canada,4711.0,29250.0,4428112.0,Prairies
+2020-12-25,Alberta,canada,4711.0,29250.0,4428112.0,Prairies
+2020-12-26,Alberta,canada,4711.0,29250.0,4428112.0,Prairies
+2020-12-27,Alberta,canada,4711.0,29250.0,4428112.0,Prairies
+2020-12-28,Alberta,canada,6016.0,29250.0,4428112.0,Prairies
+2020-12-29,Alberta,canada,6502.0,29250.0,4428112.0,Prairies
+2020-12-30,Alberta,canada,8544.0,46150.0,4428112.0,Prairies
+2020-12-31,Alberta,canada,11102.0,46150.0,4428112.0,Prairies
+2021-01-01,Alberta,canada,14244.0,46150.0,4428112.0,Prairies
+2021-01-02,Alberta,canada,17244.0,46150.0,4428112.0,Prairies
+2021-01-03,Alberta,canada,17244.0,46150.0,4428112.0,Prairies
+2021-01-04,Alberta,canada,22861.0,46150.0,4428112.0,Prairies
+2021-01-05,Alberta,canada,26269.0,46150.0,4428112.0,Prairies
+2021-01-06,Alberta,canada,30033.0,46150.0,4428112.0,Prairies
+2021-01-07,Alberta,canada,33864.0,59800.0,4428112.0,Prairies
+2021-01-08,Alberta,canada,37686.0,59800.0,4428112.0,Prairies
+2021-01-09,Alberta,canada,42333.0,59800.0,4428112.0,Prairies
+2021-01-10,Alberta,canada,44994.0,59800.0,4428112.0,Prairies
+2021-01-11,Alberta,canada,46791.0,59800.0,4428112.0,Prairies
 2021-01-12,Alberta,canada,52318.0,59800.0,4428112.0,Prairies
 2021-01-13,Alberta,canada,58144.0,59800.0,4428112.0,Prairies
 2021-01-14,Alberta,canada,66953.0,84175.0,4428112.0,Prairies
@@ -2963,6 +2929,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Alberta,canada,290391.0,326445.0,4428112.0,Prairies
 2021-03-08,Alberta,canada,297692.0,326445.0,4428112.0,Prairies
 2021-03-09,Alberta,canada,303823.0,326445.0,4428112.0,Prairies
+2020-12-20,British Columbia,canada,2592.0,3900.0,5145851.0,British Columbia
+2020-12-21,British Columbia,canada,3644.0,26325.0,5145851.0,British Columbia
+2020-12-22,British Columbia,canada,4108.0,26325.0,5145851.0,British Columbia
+2020-12-23,British Columbia,canada,5603.0,26325.0,5145851.0,British Columbia
+2020-12-24,British Columbia,canada,8178.0,26325.0,5145851.0,British Columbia
+2020-12-25,British Columbia,canada,8178.0,26325.0,5145851.0,British Columbia
+2020-12-26,British Columbia,canada,8178.0,26325.0,5145851.0,British Columbia
+2020-12-27,British Columbia,canada,8178.0,26325.0,5145851.0,British Columbia
+2020-12-28,British Columbia,canada,8178.0,34125.0,5145851.0,British Columbia
+2020-12-29,British Columbia,canada,11930.0,34125.0,5145851.0,British Columbia
+2020-12-30,British Columbia,canada,14027.0,34125.0,5145851.0,British Columbia
+2020-12-31,British Columbia,canada,17510.0,54625.0,5145851.0,British Columbia
+2021-01-01,British Columbia,canada,17510.0,54625.0,5145851.0,British Columbia
+2021-01-02,British Columbia,canada,17510.0,54625.0,5145851.0,British Columbia
+2021-01-03,British Columbia,canada,17510.0,54625.0,5145851.0,British Columbia
+2021-01-04,British Columbia,canada,24139.0,54625.0,5145851.0,British Columbia
+2021-01-05,British Columbia,canada,28209.0,54625.0,5145851.0,British Columbia
+2021-01-06,British Columbia,canada,33665.0,54625.0,5145851.0,British Columbia
+2021-01-07,British Columbia,canada,41064.0,71200.0,5145851.0,British Columbia
+2021-01-08,British Columbia,canada,46259.0,71200.0,5145851.0,British Columbia
+2021-01-09,British Columbia,canada,46259.0,71200.0,5145851.0,British Columbia
+2021-01-10,British Columbia,canada,46259.0,71200.0,5145851.0,British Columbia
+2021-01-11,British Columbia,canada,59902.0,71200.0,5145851.0,British Columbia
 2021-01-12,British Columbia,canada,62294.0,71200.0,5145851.0,British Columbia
 2021-01-13,British Columbia,canada,63430.0,71200.0,5145851.0,British Columbia
 2021-01-14,British Columbia,canada,69746.0,99475.0,5145851.0,British Columbia
@@ -3020,6 +3009,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,British Columbia,canada,311208.0,385080.0,5145851.0,British Columbia
 2021-03-08,British Columbia,canada,333327.0,385080.0,5145851.0,British Columbia
 2021-03-09,British Columbia,canada,343381.0,428370.0,5145851.0,British Columbia
+2020-12-20,Manitoba,canada,593.0,900.0,1379584.0,Prairies
+2020-12-21,Manitoba,canada,894.0,900.0,1379584.0,Prairies
+2020-12-22,Manitoba,canada,1192.0,4800.0,1379584.0,Prairies
+2020-12-23,Manitoba,canada,1687.0,4800.0,1379584.0,Prairies
+2020-12-24,Manitoba,canada,2177.0,4800.0,1379584.0,Prairies
+2020-12-25,Manitoba,canada,2177.0,4800.0,1379584.0,Prairies
+2020-12-26,Manitoba,canada,2177.0,4800.0,1379584.0,Prairies
+2020-12-27,Manitoba,canada,2177.0,4800.0,1379584.0,Prairies
+2020-12-28,Manitoba,canada,2177.0,4800.0,1379584.0,Prairies
+2020-12-29,Manitoba,canada,2477.0,4800.0,1379584.0,Prairies
+2020-12-30,Manitoba,canada,2900.0,4800.0,1379584.0,Prairies
+2020-12-31,Manitoba,canada,3400.0,19975.0,1379584.0,Prairies
+2021-01-01,Manitoba,canada,3400.0,19975.0,1379584.0,Prairies
+2021-01-02,Manitoba,canada,3432.0,19975.0,1379584.0,Prairies
+2021-01-03,Manitoba,canada,3432.0,19975.0,1379584.0,Prairies
+2021-01-04,Manitoba,canada,3442.0,19975.0,1379584.0,Prairies
+2021-01-05,Manitoba,canada,4292.0,19975.0,1379584.0,Prairies
+2021-01-06,Manitoba,canada,5165.0,25825.0,1379584.0,Prairies
+2021-01-07,Manitoba,canada,6328.0,25825.0,1379584.0,Prairies
+2021-01-08,Manitoba,canada,7484.0,25825.0,1379584.0,Prairies
+2021-01-09,Manitoba,canada,8674.0,25825.0,1379584.0,Prairies
+2021-01-10,Manitoba,canada,9498.0,25825.0,1379584.0,Prairies
+2021-01-11,Manitoba,canada,10353.0,25825.0,1379584.0,Prairies
 2021-01-12,Manitoba,canada,10353.0,25825.0,1379584.0,Prairies
 2021-01-13,Manitoba,canada,12409.0,25825.0,1379584.0,Prairies
 2021-01-14,Manitoba,canada,12409.0,33625.0,1379584.0,Prairies
@@ -3077,6 +3089,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Manitoba,canada,89728.0,124840.0,1379584.0,Prairies
 2021-03-08,Manitoba,canada,90927.0,124840.0,1379584.0,Prairies
 2021-03-09,Manitoba,canada,92753.0,124840.0,1379584.0,Prairies
+2020-12-20,New Brunswick,canada,5.0,1950.0,781315.0,Atlantic
+2020-12-21,New Brunswick,canada,1871.0,1950.0,781315.0,Atlantic
+2020-12-22,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-23,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-24,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-25,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-26,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-27,New Brunswick,canada,1871.0,5850.0,781315.0,Atlantic
+2020-12-28,New Brunswick,canada,2905.0,5850.0,781315.0,Atlantic
+2020-12-29,New Brunswick,canada,2905.0,5850.0,781315.0,Atlantic
+2020-12-30,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2020-12-31,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-01,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-02,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-03,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-04,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-05,New Brunswick,canada,2905.0,8250.0,781315.0,Atlantic
+2021-01-06,New Brunswick,canada,4105.0,11175.0,781315.0,Atlantic
+2021-01-07,New Brunswick,canada,5019.0,11175.0,781315.0,Atlantic
+2021-01-08,New Brunswick,canada,5019.0,11175.0,781315.0,Atlantic
+2021-01-09,New Brunswick,canada,5019.0,11175.0,781315.0,Atlantic
+2021-01-10,New Brunswick,canada,5019.0,11175.0,781315.0,Atlantic
+2021-01-11,New Brunswick,canada,7732.0,11175.0,781315.0,Atlantic
 2021-01-12,New Brunswick,canada,7732.0,11175.0,781315.0,Atlantic
 2021-01-13,New Brunswick,canada,7732.0,11175.0,781315.0,Atlantic
 2021-01-14,New Brunswick,canada,7732.0,17775.0,781315.0,Atlantic
@@ -3134,6 +3169,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,New Brunswick,canada,33741.0,56135.0,781315.0,Atlantic
 2021-03-08,New Brunswick,canada,38483.0,56135.0,781315.0,Atlantic
 2021-03-09,New Brunswick,canada,38483.0,56135.0,781315.0,Atlantic
+2020-12-20,Newfoundland,canada,175.0,1950.0,520998.0,Atlantic
+2020-12-21,Newfoundland,canada,972.0,1950.0,520998.0,Atlantic
+2020-12-22,Newfoundland,canada,972.0,1950.0,520998.0,Atlantic
+2020-12-23,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-24,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-25,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-26,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-27,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-28,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-29,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-30,Newfoundland,canada,1785.0,1950.0,520998.0,Atlantic
+2020-12-31,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-01,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-02,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-03,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-04,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-05,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-06,Newfoundland,canada,1785.0,6300.0,520998.0,Atlantic
+2021-01-07,Newfoundland,canada,1785.0,8250.0,520998.0,Atlantic
+2021-01-08,Newfoundland,canada,1785.0,8250.0,520998.0,Atlantic
+2021-01-09,Newfoundland,canada,1785.0,8250.0,520998.0,Atlantic
+2021-01-10,Newfoundland,canada,1785.0,8250.0,520998.0,Atlantic
+2021-01-11,Newfoundland,canada,3760.0,8250.0,520998.0,Atlantic
 2021-01-12,Newfoundland,canada,3760.0,8250.0,520998.0,Atlantic
 2021-01-13,Newfoundland,canada,5291.0,11175.0,520998.0,Atlantic
 2021-01-14,Newfoundland,canada,5291.0,11175.0,520998.0,Atlantic
@@ -3191,6 +3249,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Newfoundland,canada,24757.0,41470.0,520998.0,Atlantic
 2021-03-08,Newfoundland,canada,24757.0,41470.0,520998.0,Atlantic
 2021-03-09,Newfoundland,canada,24757.0,41470.0,520998.0,Atlantic
+2020-12-20,Nova Scotia,canada,376.0,1950.0,979115.0,Atlantic
+2020-12-21,Nova Scotia,canada,1463.0,1950.0,979115.0,Atlantic
+2020-12-22,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-23,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-24,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-25,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-26,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-27,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-28,Nova Scotia,canada,1463.0,5850.0,979115.0,Atlantic
+2020-12-29,Nova Scotia,canada,2290.0,5850.0,979115.0,Atlantic
+2020-12-30,Nova Scotia,canada,2596.0,5850.0,979115.0,Atlantic
+2020-12-31,Nova Scotia,canada,2596.0,9550.0,979115.0,Atlantic
+2021-01-01,Nova Scotia,canada,2596.0,9550.0,979115.0,Atlantic
+2021-01-02,Nova Scotia,canada,2720.0,9550.0,979115.0,Atlantic
+2021-01-03,Nova Scotia,canada,2720.0,9550.0,979115.0,Atlantic
+2021-01-04,Nova Scotia,canada,2720.0,9550.0,979115.0,Atlantic
+2021-01-05,Nova Scotia,canada,2720.0,9550.0,979115.0,Atlantic
+2021-01-06,Nova Scotia,canada,2720.0,9550.0,979115.0,Atlantic
+2021-01-07,Nova Scotia,canada,2720.0,13450.0,979115.0,Atlantic
+2021-01-08,Nova Scotia,canada,2720.0,13450.0,979115.0,Atlantic
+2021-01-09,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
+2021-01-10,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
+2021-01-11,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
 2021-01-12,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
 2021-01-13,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
 2021-01-14,Nova Scotia,canada,3831.0,23000.0,979115.0,Atlantic
@@ -3248,6 +3329,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Nova Scotia,canada,38676.0,73680.0,979115.0,Atlantic
 2021-03-08,Nova Scotia,canada,39444.0,73680.0,979115.0,Atlantic
 2021-03-09,Nova Scotia,canada,40231.0,73680.0,979115.0,Atlantic
+2020-12-20,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-21,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-22,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-23,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-24,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-25,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-26,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-27,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-28,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-29,Nunavut,canada,0.0,0.0,39285.0,Territories
+2020-12-30,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2020-12-31,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-01,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-02,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-03,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-04,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-05,Nunavut,canada,0.0,6000.0,39285.0,Territories
+2021-01-06,Nunavut,canada,29.0,6000.0,39285.0,Territories
+2021-01-07,Nunavut,canada,29.0,6000.0,39285.0,Territories
+2021-01-08,Nunavut,canada,29.0,6000.0,39285.0,Territories
+2021-01-09,Nunavut,canada,29.0,6000.0,39285.0,Territories
+2021-01-10,Nunavut,canada,29.0,6000.0,39285.0,Territories
+2021-01-11,Nunavut,canada,29.0,6000.0,39285.0,Territories
 2021-01-12,Nunavut,canada,29.0,6000.0,39285.0,Territories
 2021-01-13,Nunavut,canada,400.0,6000.0,39285.0,Territories
 2021-01-14,Nunavut,canada,521.0,6000.0,39285.0,Territories
@@ -3305,6 +3409,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Nunavut,canada,13911.0,26400.0,39285.0,Territories
 2021-03-08,Nunavut,canada,14664.0,26400.0,39285.0,Territories
 2021-03-09,Nunavut,canada,14943.0,26400.0,39285.0,Territories
+2020-12-20,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-21,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-22,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-23,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-24,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-25,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-26,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-27,Northwest Territories,canada,0.0,0.0,45074.0,Territories
+2020-12-28,Northwest Territories,canada,0.0,7200.0,45074.0,Territories
+2020-12-29,Northwest Territories,canada,0.0,7200.0,45074.0,Territories
+2020-12-30,Northwest Territories,canada,0.0,7200.0,45074.0,Territories
+2020-12-31,Northwest Territories,canada,2.0,7200.0,45074.0,Territories
+2021-01-01,Northwest Territories,canada,2.0,7200.0,45074.0,Territories
+2021-01-02,Northwest Territories,canada,2.0,7200.0,45074.0,Territories
+2021-01-03,Northwest Territories,canada,2.0,7200.0,45074.0,Territories
+2021-01-04,Northwest Territories,canada,2.0,7200.0,45074.0,Territories
+2021-01-05,Northwest Territories,canada,130.0,7200.0,45074.0,Territories
+2021-01-06,Northwest Territories,canada,130.0,7200.0,45074.0,Territories
+2021-01-07,Northwest Territories,canada,130.0,7200.0,45074.0,Territories
+2021-01-08,Northwest Territories,canada,162.0,7200.0,45074.0,Territories
+2021-01-09,Northwest Territories,canada,162.0,7200.0,45074.0,Territories
+2021-01-10,Northwest Territories,canada,162.0,7200.0,45074.0,Territories
+2021-01-11,Northwest Territories,canada,162.0,7200.0,45074.0,Territories
 2021-01-12,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
 2021-01-13,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
 2021-01-14,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
@@ -3362,6 +3489,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Northwest Territories,canada,19775.0,35300.0,45074.0,Territories
 2021-03-08,Northwest Territories,canada,19775.0,35300.0,45074.0,Territories
 2021-03-09,Northwest Territories,canada,28208.0,35300.0,45074.0,Territories
+2020-12-20,Ontario,canada,2987.0,6000.0,14733119.0,Ontario
+2020-12-21,Ontario,canada,3409.0,96000.0,14733119.0,Ontario
+2020-12-22,Ontario,canada,5250.0,96000.0,14733119.0,Ontario
+2020-12-23,Ontario,canada,8718.0,96000.0,14733119.0,Ontario
+2020-12-24,Ontario,canada,10756.0,96000.0,14733119.0,Ontario
+2020-12-25,Ontario,canada,11058.0,96000.0,14733119.0,Ontario
+2020-12-26,Ontario,canada,11058.0,96000.0,14733119.0,Ontario
+2020-12-27,Ontario,canada,11227.0,96000.0,14733119.0,Ontario
+2020-12-28,Ontario,canada,13200.0,96000.0,14733119.0,Ontario
+2020-12-29,Ontario,canada,18048.0,96000.0,14733119.0,Ontario
+2020-12-30,Ontario,canada,18603.0,148350.0,14733119.0,Ontario
+2020-12-31,Ontario,canada,23502.0,148350.0,14733119.0,Ontario
+2021-01-01,Ontario,canada,28875.0,148350.0,14733119.0,Ontario
+2021-01-02,Ontario,canada,33191.0,148350.0,14733119.0,Ontario
+2021-01-03,Ontario,canada,37551.0,148350.0,14733119.0,Ontario
+2021-01-04,Ontario,canada,42419.0,148350.0,14733119.0,Ontario
+2021-01-05,Ontario,canada,50030.0,148350.0,14733119.0,Ontario
+2021-01-06,Ontario,canada,60380.0,148350.0,14733119.0,Ontario
+2021-01-07,Ontario,canada,72631.0,196125.0,14733119.0,Ontario
+2021-01-08,Ontario,canada,87563.0,196125.0,14733119.0,Ontario
+2021-01-09,Ontario,canada,103263.0,196125.0,14733119.0,Ontario
+2021-01-10,Ontario,canada,113246.0,196125.0,14733119.0,Ontario
+2021-01-11,Ontario,canada,122105.0,196125.0,14733119.0,Ontario
 2021-01-12,Ontario,canada,133553.0,196125.0,14733119.0,Ontario
 2021-01-13,Ontario,canada,144784.0,196125.0,14733119.0,Ontario
 2021-01-14,Ontario,canada,159021.0,277050.0,14733119.0,Ontario
@@ -3419,6 +3569,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Ontario,canada,890604.0,1086745.0,14733119.0,Ontario
 2021-03-08,Ontario,canada,912486.0,1086745.0,14733119.0,Ontario
 2021-03-09,Ontario,canada,943533.0,1086745.0,14733119.0,Ontario
+2020-12-20,Prince Edward Island,canada,344.0,1950.0,159713.0,Atlantic
+2020-12-21,Prince Edward Island,canada,344.0,1950.0,159713.0,Atlantic
+2020-12-22,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-23,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-24,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-25,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-26,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-27,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-28,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-29,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-30,Prince Edward Island,canada,1500.0,1950.0,159713.0,Atlantic
+2020-12-31,Prince Edward Island,canada,1950.0,5100.0,159713.0,Atlantic
+2021-01-01,Prince Edward Island,canada,1950.0,5100.0,159713.0,Atlantic
+2021-01-02,Prince Edward Island,canada,1950.0,5100.0,159713.0,Atlantic
+2021-01-03,Prince Edward Island,canada,1950.0,5100.0,159713.0,Atlantic
+2021-01-04,Prince Edward Island,canada,1950.0,5100.0,159713.0,Atlantic
+2021-01-05,Prince Edward Island,canada,2120.0,5100.0,159713.0,Atlantic
+2021-01-06,Prince Edward Island,canada,2120.0,5100.0,159713.0,Atlantic
+2021-01-07,Prince Edward Island,canada,2120.0,6075.0,159713.0,Atlantic
+2021-01-08,Prince Edward Island,canada,3600.0,6075.0,159713.0,Atlantic
+2021-01-09,Prince Edward Island,canada,3600.0,6075.0,159713.0,Atlantic
+2021-01-10,Prince Edward Island,canada,3600.0,6075.0,159713.0,Atlantic
+2021-01-11,Prince Edward Island,canada,3600.0,6075.0,159713.0,Atlantic
 2021-01-12,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-13,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-14,Prince Edward Island,canada,5102.0,8250.0,159713.0,Atlantic
@@ -3476,6 +3649,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Prince Edward Island,canada,13281.0,15885.0,159713.0,Atlantic
 2021-03-08,Prince Edward Island,canada,13281.0,15885.0,159713.0,Atlantic
 2021-03-09,Prince Edward Island,canada,14189.0,15885.0,159713.0,Atlantic
+2020-12-20,Quebec,canada,4721.0,4875.0,8575779.0,Quebec
+2020-12-21,Quebec,canada,4836.0,54600.0,8575779.0,Quebec
+2020-12-22,Quebec,canada,5338.0,54600.0,8575779.0,Quebec
+2020-12-23,Quebec,canada,7229.0,54600.0,8575779.0,Quebec
+2020-12-24,Quebec,canada,11171.0,54600.0,8575779.0,Quebec
+2020-12-25,Quebec,canada,11171.0,54600.0,8575779.0,Quebec
+2020-12-26,Quebec,canada,14190.0,54600.0,8575779.0,Quebec
+2020-12-27,Quebec,canada,17582.0,54600.0,8575779.0,Quebec
+2020-12-28,Quebec,canada,20439.0,56000.0,8575779.0,Quebec
+2020-12-29,Quebec,canada,20941.0,56000.0,8575779.0,Quebec
+2020-12-30,Quebec,canada,23680.0,88075.0,8575779.0,Quebec
+2020-12-31,Quebec,canada,27622.0,88075.0,8575779.0,Quebec
+2021-01-01,Quebec,canada,27622.0,88075.0,8575779.0,Quebec
+2021-01-02,Quebec,canada,27964.0,88075.0,8575779.0,Quebec
+2021-01-03,Quebec,canada,28762.0,88075.0,8575779.0,Quebec
+2021-01-04,Quebec,canada,30473.0,88075.0,8575779.0,Quebec
+2021-01-05,Quebec,canada,32763.0,88075.0,8575779.0,Quebec
+2021-01-06,Quebec,canada,38984.0,88075.0,8575779.0,Quebec
+2021-01-07,Quebec,canada,48632.0,115375.0,8575779.0,Quebec
+2021-01-08,Quebec,canada,62602.0,115375.0,8575779.0,Quebec
+2021-01-09,Quebec,canada,75123.0,115375.0,8575779.0,Quebec
+2021-01-10,Quebec,canada,84387.0,115375.0,8575779.0,Quebec
+2021-01-11,Quebec,canada,92452.0,115375.0,8575779.0,Quebec
 2021-01-12,Quebec,canada,99510.0,115375.0,8575779.0,Quebec
 2021-01-13,Quebec,canada,107365.0,156325.0,8575779.0,Quebec
 2021-01-14,Quebec,canada,115704.0,162175.0,8575779.0,Quebec
@@ -3533,6 +3729,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Quebec,canada,548136.0,638445.0,8575779.0,Quebec
 2021-03-08,Quebec,canada,564302.0,638445.0,8575779.0,Quebec
 2021-03-09,Quebec,canada,581028.0,739065.0,8575779.0,Quebec
+2020-12-20,Saskatchewan,canada,551.0,1950.0,1177884.0,Prairies
+2020-12-21,Saskatchewan,canada,1285.0,1950.0,1177884.0,Prairies
+2020-12-22,Saskatchewan,canada,1519.0,7800.0,1177884.0,Prairies
+2020-12-23,Saskatchewan,canada,1597.0,7800.0,1177884.0,Prairies
+2020-12-24,Saskatchewan,canada,1786.0,7800.0,1177884.0,Prairies
+2020-12-25,Saskatchewan,canada,1786.0,7800.0,1177884.0,Prairies
+2020-12-26,Saskatchewan,canada,1786.0,7800.0,1177884.0,Prairies
+2020-12-27,Saskatchewan,canada,1786.0,7800.0,1177884.0,Prairies
+2020-12-28,Saskatchewan,canada,1786.0,7800.0,1177884.0,Prairies
+2020-12-29,Saskatchewan,canada,2371.0,7800.0,1177884.0,Prairies
+2020-12-30,Saskatchewan,canada,2942.0,12700.0,1177884.0,Prairies
+2020-12-31,Saskatchewan,canada,3458.0,13675.0,1177884.0,Prairies
+2021-01-01,Saskatchewan,canada,3458.0,13675.0,1177884.0,Prairies
+2021-01-02,Saskatchewan,canada,3722.0,13675.0,1177884.0,Prairies
+2021-01-03,Saskatchewan,canada,3866.0,13675.0,1177884.0,Prairies
+2021-01-04,Saskatchewan,canada,4013.0,13675.0,1177884.0,Prairies
+2021-01-05,Saskatchewan,canada,4254.0,13675.0,1177884.0,Prairies
+2021-01-06,Saskatchewan,canada,4524.0,17575.0,1177884.0,Prairies
+2021-01-07,Saskatchewan,canada,4832.0,17575.0,1177884.0,Prairies
+2021-01-08,Saskatchewan,canada,6015.0,17575.0,1177884.0,Prairies
+2021-01-09,Saskatchewan,canada,6964.0,17575.0,1177884.0,Prairies
+2021-01-10,Saskatchewan,canada,7929.0,17575.0,1177884.0,Prairies
+2021-01-11,Saskatchewan,canada,8948.0,17575.0,1177884.0,Prairies
 2021-01-12,Saskatchewan,canada,9880.0,17575.0,1177884.0,Prairies
 2021-01-13,Saskatchewan,canada,10400.0,17575.0,1177884.0,Prairies
 2021-01-14,Saskatchewan,canada,11985.0,24400.0,1177884.0,Prairies
@@ -3590,6 +3809,29 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-03-07,Saskatchewan,canada,91884.0,93145.0,1177884.0,Prairies
 2021-03-08,Saskatchewan,canada,92776.0,93145.0,1177884.0,Prairies
 2021-03-09,Saskatchewan,canada,93512.0,93145.0,1177884.0,Prairies
+2020-12-20,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-21,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-22,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-23,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-24,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-25,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-26,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-27,Yukon,canada,0.0,0.0,42176.0,Territories
+2020-12-28,Yukon,canada,0.0,7200.0,42176.0,Territories
+2020-12-29,Yukon,canada,0.0,7200.0,42176.0,Territories
+2020-12-30,Yukon,canada,0.0,7200.0,42176.0,Territories
+2020-12-31,Yukon,canada,0.0,7200.0,42176.0,Territories
+2021-01-01,Yukon,canada,0.0,7200.0,42176.0,Territories
+2021-01-02,Yukon,canada,0.0,7200.0,42176.0,Territories
+2021-01-03,Yukon,canada,0.0,7200.0,42176.0,Territories
+2021-01-04,Yukon,canada,50.0,7200.0,42176.0,Territories
+2021-01-05,Yukon,canada,50.0,7200.0,42176.0,Territories
+2021-01-06,Yukon,canada,50.0,7200.0,42176.0,Territories
+2021-01-07,Yukon,canada,310.0,7200.0,42176.0,Territories
+2021-01-08,Yukon,canada,310.0,7200.0,42176.0,Territories
+2021-01-09,Yukon,canada,310.0,7200.0,42176.0,Territories
+2021-01-10,Yukon,canada,310.0,7200.0,42176.0,Territories
+2021-01-11,Yukon,canada,495.0,7200.0,42176.0,Territories
 2021-01-12,Yukon,canada,495.0,7200.0,42176.0,Territories
 2021-01-13,Yukon,canada,685.0,7200.0,42176.0,Territories
 2021-01-14,Yukon,canada,685.0,7200.0,42176.0,Territories
