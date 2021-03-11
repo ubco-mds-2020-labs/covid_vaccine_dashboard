@@ -4,4 +4,4 @@ geopandas
 numpy
 altair
 dash
-
+gunicorn
