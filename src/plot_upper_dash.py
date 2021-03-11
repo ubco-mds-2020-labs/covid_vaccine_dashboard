@@ -67,14 +67,13 @@ def plot_upper_dash():
     text = alt.Chart(latest_geo_data).mark_text(align='center', size=16, fontWeight='bold').encode(text='location:N').transform_filter(click).properties(width=left_width, height=20)
 
     # Create map
-    #base=alt.Chart(latest_geo_data).mark_geoshape(stroke='black',strokeWidth=1).encode().properties(width=750,height=700,title='Total COVID-19 Vaccinations Administered per 100 Residents').project(type='albers')
-    #choro=alt.Chart(latest_geo_data).mark_geoshape(stroke='black',strokeWidth=0.5).encode(alt.Color('total_vaccinations_per_hundred',type='quantitative',scale=alt.Scale(scheme='blues'),legend=alt.Legend(title='Doses per 100')),tooltip=choro_tooltip).add_selection(click)
+    base=alt.Chart(latest_geo_data).mark_geoshape(stroke='black',strokeWidth=1).encode().properties(width=750,height=700,title='Total COVID-19 Vaccinations Administered per 100 Residents').project(type='albers')
+    choro=alt.Chart(latest_geo_data).mark_geoshape(stroke='black',strokeWidth=0.5).encode(alt.Color('total_vaccinations_per_hundred',type='quantitative',scale=alt.Scale(scheme='blues'),legend=alt.Legend(title='Doses per 100')),tooltip=choro_tooltip).add_selection(click)
 
     # Create line plots
     total_line=alt.Chart(geo_data).mark_line().encode(x=alt.X('date',type='temporal',title='Date'),y=alt.Y('total_vaccinations_per_hundred',type='quantitative',title='Total Doses per 100 Residents'),color='location',tooltip=line_tooltip).properties(width=left_width,height=265,title='Total Doses Administered per 100 Residents since '+str(geo_data['date'].min()).split(' ')[0]).add_selection(us_select).add_selection(ca_select).add_selection(click).transform_filter((us_select)|(ca_select)|(click))
     rolling_line=alt.Chart(geo_data).mark_line().encode(x=alt.X('date',type='temporal',title='Date'),y=alt.Y('daily_vaccinations_rolling_per_hundred',type='quantitative',title='Daily Doses per 100 Residents'),color='location',tooltip=line_tooltip).properties(width=left_width,height=265,title='Daily Doses Administered per 100 Residents since '+str(geo_data['date'].min()).split(' ')[0]).add_selection(us_select).add_selection(ca_select).add_selection(click).transform_filter((us_select)|(ca_select)|(click))
 
     # Arrange plots
-    upper_plot = alt.vconcat(summary_plot, alt.hconcat(alt.vconcat(text, total_line, rolling_line)))
-    #upper_plot=alt.vconcat(summary_plot,alt.hconcat(alt.vconcat(text,total_line,rolling_line),base+choro))
+    upper_plot=alt.vconcat(summary_plot,alt.hconcat(alt.vconcat(text,total_line,rolling_line),base+choro))
     return upper_plot.to_html()
