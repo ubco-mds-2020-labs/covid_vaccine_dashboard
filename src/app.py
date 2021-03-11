@@ -42,7 +42,7 @@ app.layout = html.Div([
                 style={'width': '100%',
                        'height': '1100px',
                        'border-width': '0px'}),
-    html.H1('State/Province & Regional Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
+    html.H1('State-level/Provincial & Regional Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
     html.P(
         'Select a set of states/regions and a metric to see time series data. Selecting "Per 100" will display the chosen metric per 100 residents.',
         style={'font-family': 'sans-serif'}),
@@ -52,8 +52,7 @@ app.layout = html.Div([
                 dcc.Dropdown(
                     id='my_dropdown',
                     placeholder='Select locations...', multi=True,
-                    style={'font-family': 'sans-serif'},
-                    value=['California','British Columbia']
+                    style={'font-family': 'sans-serif'}
                 )
 
                 dcc.RadioItems(
