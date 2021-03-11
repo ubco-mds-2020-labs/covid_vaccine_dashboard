@@ -22,7 +22,7 @@ def plot_lower_dash(location_choice, my_dropdown, metric_choice, metric_dropdown
         chart = alt.Chart(data, title='State and Provincial Vaccine Data Over Time').mark_line().encode(
             x='date:T',
             y=metric_dropdown,
-            color=alt.Color('location', legend=alt.Legend(title="Location"))).transform_filter(
+            color=alt.Color('location', legend=alt.Legend(title="Location")),strokeDash='country:N').transform_filter(
             alt.FieldOneOfPredicate(field='location', oneOf=my_dropdown)).properties(width=800, height=400)
 
         return chart.to_html()

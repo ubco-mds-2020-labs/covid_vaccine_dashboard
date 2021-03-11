@@ -52,7 +52,9 @@ app.layout = html.Div([
                 dcc.Dropdown(
                     id='my_dropdown',
                     placeholder='Select locations...', multi=True,
-                    style={'font-family': 'sans-serif'}),
+                    style={'font-family': 'sans-serif'},
+                    value=['California','British Columbia']
+                )
 
                 dcc.RadioItems(
                     id='location_choice',
@@ -64,9 +66,7 @@ app.layout = html.Div([
                 dcc.Dropdown(
                     id='metric_dropdown',
                     placeholder='Select metrics...', multi=False,
-                    style={'height': '40px', 'width': '300px', 'display': 'inline-block', 'font-family': 'sans-serif'},
-                    multi=True,
-                    value=['California','British Columbia']
+                    style={'height': '40px', 'width': '300px', 'display': 'inline-block', 'font-family': 'sans-serif'}
                 ),
 
                 dcc.RadioItems(
