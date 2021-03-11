@@ -53,7 +53,7 @@ app.layout = html.Div([
                     id='my_dropdown',
                     placeholder='Select locations...', multi=True,
                     style={'font-family': 'sans-serif'}
-                )
+                ),
 
                 dcc.RadioItems(
                     id='location_choice',
