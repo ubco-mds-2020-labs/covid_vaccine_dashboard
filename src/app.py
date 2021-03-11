@@ -65,6 +65,7 @@ app.layout = html.Div([
                     id='metric_dropdown',
                     placeholder='Select metrics...', multi=False,
                     style={'height': '40px', 'width': '300px', 'display': 'inline-block', 'font-family': 'sans-serif'},
+                    multi=True,
                     value=['California','British Columbia']
                 ),
 
