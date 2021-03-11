@@ -6,6 +6,7 @@ from dash.dependencies import Input, Output
 from plot_upper_dash import *
 
 app = dash.Dash()
+server=app.server
 app.layout = html.Div([
     html.Div('USA & Canada COVID-19 Vaccination Rollout Dashboard', style={'color': 'blue',
                                                                            'font-family': 'sans-serif',
