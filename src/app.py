@@ -19,7 +19,7 @@ app.layout = html.Div([
     #                                                  }),
     html.P(
         'Hover over a state/province for more information on its current vaccination progress, or click to examine its vaccination rollout over time via the plots on the left.',
-        style={'font_family': 'sans-serif'}),
+        style={'font-family': 'sans-serif'}),
     html.Iframe(srcDoc=plot_upper_dash(),
                 style={'width': '100%',
                        'height': '1100px',
