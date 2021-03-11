@@ -70,7 +70,7 @@ app.layout = html.Div([
                 dcc.RadioItems(
                     id='metric_choice',
                     options=[{'label': k, 'value': k} for k in all_metrics.keys()],
-                    value='per_100',
+                    value='Per 100',
                     style={'font-family': 'sans-serif'},
                 )], md=4),
 
