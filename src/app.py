@@ -44,7 +44,7 @@ app.layout = html.Div([
                        'border-width': '0px'}),
     html.H1('State/Province and Regional Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
     dbc.Container([
-        dbc.Row([
+        dbc.Col([
             dbc.Col([
                 dcc.Dropdown(
                     id='my_dropdown',
