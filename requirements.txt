@@ -1,3 +1,7 @@
-# Requirements package for GitHub Actions
+# Requirements
 pandas
+geopandas
 numpy
+altair
+dash
+
