@@ -42,9 +42,12 @@ app.layout = html.Div([
                 style={'width': '100%',
                        'height': '1100px',
                        'border-width': '0px'}),
-    html.H1('State/Province and Regional Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
+    html.H1('State/Province/Regional Data over Time', style={'font-family': 'sans-serif', 'marginTop': 0}),
+    html.P(
+        'Select a set of states/regions and a metric to see time series data. Selecting "Per 100" will display the chosen metric per 100 residents.',
+        style={'font-family': 'sans-serif'}),
     dbc.Container([
-        dbc.Col([
+        dbc.Row([
             dbc.Col([
                 dcc.Dropdown(
                     id='my_dropdown',
@@ -74,7 +77,7 @@ app.layout = html.Div([
             dbc.Col(
                 html.Iframe(
                     id='scatter',
-                    style={'border-width': '0', 'width': '1000px', 'height': '600px', 'font-family': 'sans-serif'}
+                    style={'border-width': '0', 'width': '1200', 'height': '600px', 'font-family': 'sans-serif'}
                 )
 
             )])])
