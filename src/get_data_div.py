@@ -8,7 +8,7 @@ def get_data_div():
     data = pd.read_csv(path_to_csv)
     data['date'] = pd.to_datetime(data['date'], format='%Y-%m-%d')
     # Group by region
-    data_div=data.groupby(['division','date','country'],as_index=False).agg(np.nansum)
+    data_div=data.groupby(['division','date','country'],as_index=False).agg(np.nansum).replace(0,np.NaN)
     ## Data cleaning
     # Compute total doses per hundred
     data_div['total_vaccinations_per_hundred'] = (data_div['total_vaccinations_raw'] / data_div['pop_est']) * 100
