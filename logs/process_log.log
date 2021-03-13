@@ -1711,3 +1711,6 @@ INFO:root:2021-03-13 02:28:25.209784: script executed successfully
 INFO:root:2021-03-13 02:55:11.828710: starting script execution
 INFO:root:2021-03-13 02:55:11.828828: new data found, processing
 INFO:root:2021-03-13 02:55:12.247809: script executed successfully
+INFO:root:2021-03-13 03:03:40.090302: starting script execution
+INFO:root:2021-03-13 03:03:40.090434: no new data to process
+INFO:root:2021-03-13 03:03:40.090481: script executed successfully
