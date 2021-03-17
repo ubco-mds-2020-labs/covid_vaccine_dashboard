@@ -2937,3 +2937,6 @@ INFO:root:2021-03-17 00:57:58.763435: script executed successfully
 INFO:root:2021-03-17 01:52:10.679510: starting script execution
 INFO:root:2021-03-17 01:52:11.219865: new data found, writing to CSV
 INFO:root:2021-03-17 01:52:11.220024: script executed successfully
+INFO:root:2021-03-17 02:20:11.674278: starting script execution
+INFO:root:2021-03-17 02:20:12.758886: no new data found
+INFO:root:2021-03-17 02:20:12.759016: script executed successfully
