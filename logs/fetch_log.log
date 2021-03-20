@@ -4002,3 +4002,7 @@ INFO:root:2021-03-20 22:47:41.626390: starting script execution
 WARNING:root:2021-03-20 22:47:42.887384: countries out of sync
 INFO:root:2021-03-20 22:47:42.903736: no new data found
 INFO:root:2021-03-20 22:47:42.903878: script executed successfully
+INFO:root:2021-03-20 22:57:15.594888: starting script execution
+WARNING:root:2021-03-20 22:57:16.900885: countries out of sync
+INFO:root:2021-03-20 22:57:16.917561: no new data found
+INFO:root:2021-03-20 22:57:16.917642: script executed successfully
