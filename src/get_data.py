@@ -4,7 +4,7 @@ import numpy as np
 
 def get_data():
     # Define file path
-    path_to_csv = 'data/processed/processed_vaccination_data.csv'
+    path_to_csv = 'https://raw.githubusercontent.com/ubco-mds-2020-labs/covid_vaccine_dashboard/main/data/processed/processed_vaccination_data.csv'
     data = pd.read_csv(path_to_csv)
     data['date'] = pd.to_datetime(data['date'], format='%Y-%m-%d')
     ## Data cleaning
@@ -42,4 +42,8 @@ def get_data():
     # Create nat column
     data['nat'] = 0
     data.loc[(data['location'] == 'Canada') | (data['location'] == 'United States'), 'nat'] = 1
+    # Rename country column and values to have correct capitalization
+    data.rename(columns={'country':'Country'}, inplace=True)
+    data.loc[data['Country'] == 'canada', 'Country'] = 'Canada'
+    data.loc[data['Country'] == 'usa', 'Country'] = 'USA'
     return data

@@ -3,12 +3,15 @@ import numpy as np
 
 def get_data_div():
     # Define file path
-    path_to_csv = 'data/processed/processed_vaccination_data.csv'
+    path_to_csv = 'https://raw.githubusercontent.com/ubco-mds-2020-labs/covid_vaccine_dashboard/main/data/processed/processed_vaccination_data.csv'
     # Get data
     data = pd.read_csv(path_to_csv)
     data['date'] = pd.to_datetime(data['date'], format='%Y-%m-%d')
+    data.rename(columns={'country':'Country'}, inplace=True)
+    data.loc[data['Country'] == 'canada', 'Country'] = 'Canada'
+    data.loc[data['Country'] == 'usa', 'Country'] = 'USA'
     # Group by region
-    data_div=data.groupby(['division','date','country'],as_index=False).agg(np.nansum).replace(0,np.NaN)
+    data_div=data.groupby(['division','date','Country'],as_index=False).agg(np.nansum).replace(0,np.NaN)
     ## Data cleaning
     # Compute total doses per hundred
     data_div['total_vaccinations_per_hundred'] = (data_div['total_vaccinations_raw'] / data_div['pop_est']) * 100
