@@ -11,7 +11,9 @@ from src.plot_lower_dash import *
 app = dash.Dash()
 server=app.server
 
-# Fetch data
+#-------------------------------------
+# Data Fetching Section
+
 data = get_data()
 data_div = get_data_div()
 
@@ -26,64 +28,137 @@ all_metrics = {
     'Total': ['Total Vaccinations', 'Daily Vaccinations', 'Total Distributed', 'Daily Distributed']
 }
 
-app.layout = html.Div([
-    html.Div('USA & Canada COVID-19 Vaccination Rollout Dashboard', style={'color': 'blue',
-                                                                           'font-family': 'sans-serif',
-                                                                           'font-size': 44,
-                                                                           'marginTop': 50
-                                                                           }),
-    # html.H1('Summary Stats and Clickable Map', style={'font-family': 'sans-serif',
-    #                                                  'marginTop': 20
-    #                                                  }),
-    html.P(
-        'Hover over a state/province for more information on its current vaccination progress, or click to examine its vaccination rollout over time via the plots on the left.',
-        style={'font-family': 'sans-serif'}),
-    html.Iframe(srcDoc=plot_upper_dash(),
-                style={'width': '100%',
-                       'height': '1100px',
-                       'border-width': '0px'}),
-    html.H1('State-level/Provincial & Regional Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
-    html.P(
-        'Select a set of states/regions and a metric to see time series data. Selecting "Per 100" will display the chosen metric per 100 residents.',
-        style={'font-family': 'sans-serif'}),
-    dbc.Container([
-        dbc.Row([
-            dbc.Col([
-                dcc.Dropdown(
-                    id='my_dropdown',
-                    placeholder='Select locations...', multi=True,
-                    style={'font-family': 'sans-serif'}
+#--------------------------------
+# Tabbed App Layout Section
+
+# Set the title up
+def dash_title():
+    return html.Div('USA & Canada COVID-19 Vaccination Rollout Dashboard', style={'color': '#1058A0',
+                                'font-family': 'sans-serif',
+                                'font-size': 50,
+                                'marginTop': 50
+                                }),
+# tab styling features for layout
+tabs_styles={'height': '45px'}
+tab_style={
+    'font-family': 'sans-serif',
+    'font-size': 24,
+    'backgroundColor': '#C3DBEE',
+    'color': 'black',
+    'padding': '5px',
+}
+
+tab_selected_style={
+    'font-family': 'sans-serif',
+    'font-size': 24,
+    'fontWeight': 'bold',
+    'backgroundColor': '#0A4A90',
+    'color': 'white',
+    'padding': '5px',
+}
+
+#----------------------------------
+# Layout Section
+
+app.layout = html.Div(
+    [
+        # Title Section
+        html.Div('COVID-19 Vaccination Rollout Dashboard - USA & Canada', style={'color': '#1058A0',
+                                        'font-family': 'sans-serif',
+                                        'font-size': 50,
+                                        'marginTop': 20
+                                        }),
+        # Tabs Section
+        dcc.Tabs(
+            [
+                # Tab 1 Layout
+                dcc.Tab(
+                    label='Interactive Regional Map',
+                    style=tab_style,
+                    selected_style=tab_selected_style,
+                    children=[
+                        html.P('Hover over a state/province for more information on its current vaccination progress,\
+                                or click to examine its vaccination rollout over time via the plots on the left.',
+                            style={'font-family': 'sans-serif',
+                                'font-size': 19
+                            }
+                        ),
+                        html.Iframe(srcDoc=plot_upper_dash(),
+                                    style={'width': '100%',
+                                        'height': '1100px',
+                                        'border-width': '0px'}
+                        )
+                    ],
                 ),
+                # Tab 2 Layout
+                dcc.Tab(
+                    label='Custom Plots',
+                    style=tab_style,
+                    selected_style=tab_selected_style,
+                    children=[
+                        # html.H1('Regional or State and Provincial Comparisons', style={'font-family': 'sans-serif', 'marginTop': 0}),
+                        html.P(
+                            'Select a set of states/regions and a metric to see time series data.\
+                             Selecting "Per 100" will display the chosen metric per 100 residents.',
+                            style={'font-family': 'sans-serif',
+                                'font-size': 19
+                            }
+                        ),
+                        dbc.Container([
+                            dbc.Row([
+                                dbc.Col([
+                                    dcc.Dropdown(
+                                        id='my_dropdown',
+                                        placeholder='Select locations...', multi=True,
+                                        style={'font-family': 'sans-serif'}
+                                    ),
 
-                dcc.RadioItems(
-                    id='location_choice',
-                    options=[{'label': k, 'value': k} for k in all_options.keys()],
-                    style={'font-family': 'sans-serif'},
-                    value='States and Provinces'
+                                    dcc.RadioItems(
+                                        id='location_choice',
+                                        options=[{'label': k, 'value': k} for k in all_options.keys()],
+                                        style={'font-family': 'sans-serif'},
+                                        value='States and Provinces'
+                                    ),
+
+                                    dcc.Dropdown(
+                                        id='metric_dropdown',
+                                        placeholder='Select a metric.', multi=False,
+                                        style={'height': '40px',
+                                        'width': '300px',
+                                        'display':'inline-block',
+                                        'font-family': 'sans-serif'},
+                                        value='Total Vaccinations Per 100'
+                                    ),
+
+                                    dcc.RadioItems(
+                                        id='metric_choice',
+                                        options=[{'label': k, 'value': k} for k in all_metrics.keys()],
+                                        value='Per 100',
+                                        style={'font-family': 'sans-serif'},
+                                    )
+                                ], md=4
+                                ),
+
+                                dbc.Col(
+                                    html.Iframe(
+                                        id='scatter',
+                                        style={'border-width': '0',
+                                        'width': '1200px',
+                                        'height': '700px',
+                                        'font-family': 'sans-serif'}
+                                    )
+
+                                )])])
+                    ],
                 ),
+                
+            ]
+        ),
+    ]
+)
 
-                dcc.Dropdown(
-                    id='metric_dropdown',
-                    placeholder='Select metrics...', multi=False,
-                    style={'height': '40px', 'width': '300px', 'display': 'inline-block', 'font-family': 'sans-serif'}
-                ),
-
-                dcc.RadioItems(
-                    id='metric_choice',
-                    options=[{'label': k, 'value': k} for k in all_metrics.keys()],
-                    value='Per 100',
-                    style={'font-family': 'sans-serif'},
-                )], md=4),
-
-            dbc.Col(
-                html.Iframe(
-                    id='scatter',
-                    style={'border-width': '0', 'width': '1200px', 'height': '600px', 'font-family': 'sans-serif'}
-                )
-
-            )])])
-])
-
+#----------------------------------------------
+# Callbacks section
 
 # Set up callbacks/backend
 @app.callback(
@@ -97,7 +172,7 @@ def update_my_output(location_choice):
     Output('my_dropdown', 'value'),
     Input('my_dropdown', 'options'))
 def set_states_value(available_options):
-    return available_options[0]['value']
+    return [available_options[0]['value'], available_options[1]['value']]
 
 
 @app.callback(
@@ -110,8 +185,8 @@ def update_output(metric_choice):
 @app.callback(
     Output('metric_dropdown', 'value'),
     Input('metric_dropdown', 'options'))
-def set_metrics_value(available_options):
-    return available_options[0]['value']
+def set_metrics_value(available_options2):
+    return [available_options2[0]['value']]
 
 
 @app.callback(
