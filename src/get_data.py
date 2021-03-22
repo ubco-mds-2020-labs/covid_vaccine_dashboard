@@ -42,4 +42,8 @@ def get_data():
     # Create nat column
     data['nat'] = 0
     data.loc[(data['location'] == 'Canada') | (data['location'] == 'United States'), 'nat'] = 1
+    # Rename country column and values to have correct capitalization
+    data.rename(columns={'country':'Country'}, inplace=True)
+    data.loc[data['Country'] == 'canada', 'Country'] = 'Canada'
+    data.loc[data['Country'] == 'usa', 'Country'] = 'USA'
     return data
