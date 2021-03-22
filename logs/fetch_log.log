@@ -4293,3 +4293,6 @@ INFO:root:2021-03-22 00:00:41.501063: starting script execution
 WARNING:root:2021-03-22 00:00:42.580622: countries out of sync
 INFO:root:2021-03-22 00:00:42.599707: no new data found
 INFO:root:2021-03-22 00:00:42.599841: script executed successfully
+INFO:root:2021-03-22 01:04:46.410400: starting script execution
+INFO:root:2021-03-22 01:04:47.958933: new data found, writing to CSV
+INFO:root:2021-03-22 01:04:47.959046: script executed successfully
