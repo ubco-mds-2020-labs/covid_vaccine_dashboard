@@ -4,7 +4,7 @@ import numpy as np
 
 def get_data():
     # Define file path
-    path_to_csv = 'https://raw.githubusercontent.com/ubco-mds-2020-labs/covid_vaccine_dashboard/main/data/processed/processed_vaccination_data.csv'
+    path_to_csv = 'data/processed/processed_vaccination_data.csv'
     data = pd.read_csv(path_to_csv)
     data['date'] = pd.to_datetime(data['date'], format='%Y-%m-%d')
     ## Data cleaning

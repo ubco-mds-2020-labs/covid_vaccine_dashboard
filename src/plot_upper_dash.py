@@ -9,7 +9,7 @@ from src.get_data import *
 
 def plot_upper_dash():
     # Define file paths
-    path_to_geojson = 'https://raw.githubusercontent.com/ubco-mds-2020-labs/covid_vaccine_dashboard/main/data/processed/us_canada.geojson'
+    path_to_geojson = 'data/processed/us_canada.geojson'
 
     # Read in datasets
     data = get_data()
