@@ -6,10 +6,10 @@ from src.get_data import *
 from src.get_data_div import *
 
 
-def plot_lower_dash(location_choice = 'States and Provinces',
-                    my_dropdown = ['California', 'British Columbia'],
-                    metric_choice = 'Total Vaccinations Per 100',
-                    metric_dropdown = 'Per 100'):
+def plot_lower_dash(location_choice,
+                    my_dropdown,
+                    metric_choice,
+                    metric_dropdown):
     # Fetch data
     data = get_data()
     data_div = get_data_div()
@@ -28,7 +28,7 @@ def plot_lower_dash(location_choice = 'States and Provinces',
     titleFontSize=30
     legendtitleFontSize=30
     legendlabelFontSize=25
-
+    
     if location_choice == 'States and Provinces':
         chart = alt.Chart(data, title='State and Provincial Vaccine Data Over Time').mark_line().encode(
                 x=alt.X('date:T', 
@@ -36,7 +36,7 @@ def plot_lower_dash(location_choice = 'States and Provinces',
                 y=metric_dropdown,
                 color=alt.Color('location', 
                                 legend=alt.Legend(title="Location"),
-                                sort=['location'],
+                                sort=my_dropdown, # sort=['California', 'Texas'], # sort=my_dropdown
                     ),
                 strokeDash='Country',
             ).transform_filter(
@@ -62,7 +62,7 @@ def plot_lower_dash(location_choice = 'States and Provinces',
                 y=metric_dropdown,
                 color=alt.Color('division',
                                 legend=alt.Legend(title="Region"),
-                                sort=['Canada', 'USA'],
+                                sort=my_dropdown,
                     ),
                 strokeDash='Country',
             ).transform_filter(
