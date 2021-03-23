@@ -89,13 +89,13 @@ def plot_upper_dash():
                                                                                                          title='Total COVID-19 Vaccinations Administered per 100 Residents').project(
         type='albers')
     choro = alt.Chart(latest_geo_data).mark_geoshape(stroke='black', strokeWidth=0.5).encode(
-        alt.Color('total_vaccinations_per_hundred', type='quantitative', scale=alt.Scale(scheme='blues'),
-                  legend=alt.Legend(title='Doses per 100')), tooltip=choro_tooltip).add_selection(click_location)
+        color=alt.condition(click_location, alt.value('darkred'), alt.Color('total_vaccinations_per_hundred', type='quantitative', scale=alt.Scale(scheme='blues'),
+                  legend=alt.Legend(title='Doses per 100'))), tooltip=choro_tooltip,).add_selection(click_location)
 
     # Create line plots
     total_line = alt.Chart(data).mark_line().encode(x=alt.X('date', type='temporal', title='Date'),
                                                     y=alt.Y('total_vaccinations_per_hundred', type='quantitative',
-                                                            title='Total Doses per 100 Residents'), color='location',
+                                                            title='Total Doses per 100 Residents'), color=alt.Color('location', sort = ['Canada']),
                                                     tooltip=line_tooltip).properties(width=left_width,
                                                                                      height=line_height,
                                                                                      title='Total Doses Administered per 100 Residents').add_selection(
@@ -103,7 +103,7 @@ def plot_upper_dash():
     rolling_line = alt.Chart(data).mark_line().encode(x=alt.X('date', type='temporal', title='Date'),
                                                       y=alt.Y('daily_vaccinations_rolling_per_hundred',
                                                               type='quantitative',
-                                                              title='Daily Doses per 100 Residents'), color='location',
+                                                              title='Daily Doses per 100 Residents'), color=alt.Color('location', sort = ['Canada']),
                                                       tooltip=line_tooltip).properties(width=left_width,
                                                                                        height=line_height,
                                                                                        title='Daily Doses Administered per 100 Residents').add_selection(
