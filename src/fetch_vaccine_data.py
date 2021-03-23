@@ -16,6 +16,8 @@ if os.path.isfile('logs/flag.txt'):
 ## Read in local datasets
 try:
     us_states=pd.read_csv('data/raw/all_states.csv',index_col=0)
+    # Add country name to get national data
+    us_states.iloc[-1]='United States'
     ca_pop_est=pd.read_csv('data/raw/ca_pop_est.csv',index_col=0)
     regions=pd.read_csv('data/raw/us_canada_regions.csv')
 except:
@@ -76,9 +78,9 @@ try:
     # Rename columns
     all_vac.rename(columns={'total_vaccinations':'total_vaccinations_raw','total_distributed':'total_distributed_raw'},inplace=True)
     # Start Canada dates at the same time as the USA
-    all_vac=all_vac[all_vac['date']>=all_vac[all_vac['country']=='usa']['date'].min()]
+    all_vac=all_vac[all_vac['date']>=all_vac[all_vac['location']=='California']['date'].min()]
     # Add divisions
-    all_vac=pd.merge(left=all_vac,right=regions.drop(columns='region'),on='location')
+    all_vac=pd.merge(left=all_vac,right=regions.drop(columns='region'),on='location',how='outer')
     # Remove data after latest date (data can be out of sync between two countries)
     latest_date=np.min([all_vac[all_vac['country']=='canada']['date'].max(),all_vac[all_vac['country']=='usa']['date'].max()])
     if latest_date<np.max([all_vac[all_vac['country']=='canada']['date'].max(),all_vac[all_vac['country']=='usa']['date'].max()]):
