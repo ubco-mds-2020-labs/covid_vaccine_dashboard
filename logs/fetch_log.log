@@ -5125,3 +5125,7 @@ INFO:root:2021-03-24 17:49:41.509870: script executed successfully
 INFO:root:2021-03-24 18:00:52.788015: starting script execution
 INFO:root:2021-03-24 18:00:54.000992: no new data found
 INFO:root:2021-03-24 18:00:54.001121: script executed successfully
+INFO:root:2021-03-24 18:13:48.449473: starting script execution
+WARNING:root:2021-03-24 18:13:49.653918: countries out of sync
+INFO:root:2021-03-24 18:13:49.718207: new data found, writing to CSV
+INFO:root:2021-03-24 18:13:49.718331: script executed successfully
