@@ -201,4 +201,4 @@ def set_display_children(location_choice, my_dropdown, metric_choice, metric_dro
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
