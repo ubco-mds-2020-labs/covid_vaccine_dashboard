@@ -8,7 +8,7 @@ from src.get_data import *
 from src.plot_upper_dash import *
 from src.plot_lower_dash import *
 
-app = dash.Dash()
+app = dash.Dash(__name__, title='COVID-19 Vaccination Dashboard')
 server=app.server
 
 #-------------------------------------
