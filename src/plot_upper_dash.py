@@ -52,18 +52,21 @@ def plot_upper_dash():
     total_today_plot = alt.Chart(pd.DataFrame({'vaccines_today': [vaccines_today]}).applymap('{:,.0f}'.format)).mark_text(
         size=summary_text_size).encode(text='vaccines_today:Q').properties(width=summary_width, height=summary_height,
                                                                            title='Doses Administered Today in USA & Canada:')
-
-    us_total_plot = alt.Chart(summary[summary['Country'] == 'USA'].applymap('{:,.0f}'.format)).mark_text(size=summary_text_size).encode(
+    summary_usa=summary[summary['Country'] == 'USA']
+    summary_usa['total_vaccinations_raw']=summary_usa[['total_vaccinations_raw']].applymap('{:,.0f}'.format)
+    summary_canada=summary[summary['Country'] == 'Canada']
+    summary_canada['total_vaccinations_raw'] = summary_canada[['total_vaccinations_raw']].applymap('{:,.0f}'.format)
+    us_total_plot = alt.Chart(summary_usa).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_raw:Q').properties(width=summary_width, height=summary_height,
                                                     title='Total Doses Administered in USA:')
-    us_hundred_plot = alt.Chart(summary[summary['Country'] == 'USA']).mark_text(size=summary_text_size).encode(
+    us_hundred_plot = alt.Chart(summary_usa).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_per_hundred:Q').properties(width=summary_width, height=summary_height,
                                                             title='Doses Administered per 100 in USA:')
 
-    ca_total_plot = alt.Chart(summary[summary['Country'] == 'Canada'].applymap('{:,.0f}'.format)).mark_text(size=summary_text_size).encode(
+    ca_total_plot = alt.Chart(summary_canada).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_raw:Q').properties(width=summary_width, height=summary_height,
                                                     title='Total Doses Administered in Canada:')
-    ca_hundred_plot = alt.Chart(summary[summary['Country'] == 'Canada']).mark_text(size=summary_text_size).encode(
+    ca_hundred_plot = alt.Chart(summary_canada).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_per_hundred:Q').properties(width=summary_width, height=summary_height,
                                                             title='Doses Administered per 100 in Canada:')
 
