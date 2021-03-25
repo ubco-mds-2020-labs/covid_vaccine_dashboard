@@ -49,18 +49,18 @@ def plot_upper_dash():
 
     last_updated_plot = alt.Chart(pd.DataFrame({'text': [last_updated]})).mark_text(size=summary_text_size).encode(
         text='text:N').properties(width=summary_width, height=summary_height, title='Map Last Updated:')
-    total_today_plot = alt.Chart(pd.DataFrame({'vaccines_today': [vaccines_today]})).mark_text(
+    total_today_plot = alt.Chart(pd.DataFrame({'vaccines_today': [vaccines_today]}).applymap('{:,.0f}'.format)).mark_text(
         size=summary_text_size).encode(text='vaccines_today:Q').properties(width=summary_width, height=summary_height,
                                                                            title='Doses Administered Today in USA & Canada:')
 
-    us_total_plot = alt.Chart(summary[summary['Country'] == 'USA']).mark_text(size=summary_text_size).encode(
+    us_total_plot = alt.Chart(summary[summary['Country'] == 'USA'].applymap('{:,.0f}'.format)).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_raw:Q').properties(width=summary_width, height=summary_height,
                                                     title='Total Doses Administered in USA:')
     us_hundred_plot = alt.Chart(summary[summary['Country'] == 'USA']).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_per_hundred:Q').properties(width=summary_width, height=summary_height,
                                                             title='Doses Administered per 100 in USA:')
 
-    ca_total_plot = alt.Chart(summary[summary['Country'] == 'Canada']).mark_text(size=summary_text_size).encode(
+    ca_total_plot = alt.Chart(summary[summary['Country'] == 'Canada'].applymap('{:,.0f}'.format)).mark_text(size=summary_text_size).encode(
         text='total_vaccinations_raw:Q').properties(width=summary_width, height=summary_height,
                                                     title='Total Doses Administered in Canada:')
     ca_hundred_plot = alt.Chart(summary[summary['Country'] == 'Canada']).mark_text(size=summary_text_size).encode(
