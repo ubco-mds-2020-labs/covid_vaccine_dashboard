@@ -6520,3 +6520,7 @@ INFO:root:2021-03-27 21:09:32.551958: starting script execution
 WARNING:root:2021-03-27 21:09:33.448919: countries out of sync
 INFO:root:2021-03-27 21:09:33.464375: no new data found
 INFO:root:2021-03-27 21:09:33.464481: script executed successfully
+INFO:root:2021-03-27 21:21:41.702701: starting script execution
+WARNING:root:2021-03-27 21:21:42.739819: countries out of sync
+INFO:root:2021-03-27 21:21:42.764772: no new data found
+INFO:root:2021-03-27 21:21:42.764910: script executed successfully
