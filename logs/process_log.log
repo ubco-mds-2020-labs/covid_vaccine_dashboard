@@ -6013,3 +6013,6 @@ INFO:root:2021-03-28 00:24:09.029326: script executed successfully
 INFO:root:2021-03-28 00:44:18.406296: starting script execution
 INFO:root:2021-03-28 00:44:18.406463: new data found, processing
 INFO:root:2021-03-28 00:44:18.942803: script executed successfully
+INFO:root:2021-03-28 01:12:40.129132: starting script execution
+INFO:root:2021-03-28 01:12:40.129252: no new data to process
+INFO:root:2021-03-28 01:12:40.129297: script executed successfully
