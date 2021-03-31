@@ -7813,3 +7813,6 @@ INFO:root:2021-03-31 02:19:42.166259: starting script execution
 WARNING:root:2021-03-31 02:19:43.251995: countries out of sync
 INFO:root:2021-03-31 02:19:43.270168: no new data found
 INFO:root:2021-03-31 02:19:43.270250: script executed successfully
+INFO:root:2021-03-31 02:37:33.976458: starting script execution
+INFO:root:2021-03-31 02:37:34.862573: new data found, writing to CSV
+INFO:root:2021-03-31 02:37:34.862739: script executed successfully
