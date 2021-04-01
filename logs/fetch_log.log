@@ -8463,3 +8463,7 @@ INFO:root:2021-04-01 18:17:52.457670: starting script execution
 WARNING:root:2021-04-01 18:17:53.404916: countries out of sync
 INFO:root:2021-04-01 18:17:53.477560: new data found, writing to CSV
 INFO:root:2021-04-01 18:17:53.477668: script executed successfully
+INFO:root:2021-04-01 18:34:27.716880: starting script execution
+WARNING:root:2021-04-01 18:34:28.197010: countries out of sync
+INFO:root:2021-04-01 18:34:28.214941: no new data found
+INFO:root:2021-04-01 18:34:28.215068: script executed successfully
