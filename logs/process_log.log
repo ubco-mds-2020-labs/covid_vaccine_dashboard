@@ -8032,3 +8032,6 @@ INFO:root:2021-04-02 17:39:20.400092: script executed successfully
 INFO:root:2021-04-02 18:00:51.370632: starting script execution
 INFO:root:2021-04-02 18:00:51.370783: no new data to process
 INFO:root:2021-04-02 18:00:51.370833: script executed successfully
+INFO:root:2021-04-02 18:18:54.400095: starting script execution
+INFO:root:2021-04-02 18:18:54.400212: new data found, processing
+INFO:root:2021-04-02 18:18:55.050094: script executed successfully
