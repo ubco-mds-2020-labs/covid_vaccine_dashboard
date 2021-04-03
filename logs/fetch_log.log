@@ -8951,3 +8951,7 @@ INFO:root:2021-04-03 00:22:31.420594: starting script execution
 WARNING:root:2021-04-03 00:22:31.854869: countries out of sync
 INFO:root:2021-04-03 00:22:31.872889: no new data found
 INFO:root:2021-04-03 00:22:31.872987: script executed successfully
+INFO:root:2021-04-03 00:41:55.972247: starting script execution
+WARNING:root:2021-04-03 00:41:56.864885: countries out of sync
+INFO:root:2021-04-03 00:41:56.884524: no new data found
+INFO:root:2021-04-03 00:41:56.884628: script executed successfully
