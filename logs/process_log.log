@@ -9592,3 +9592,6 @@ INFO:root:2021-04-07 03:35:51.714282: script executed successfully
 INFO:root:2021-04-07 03:50:05.328365: starting script execution
 INFO:root:2021-04-07 03:50:05.328504: new data found, processing
 INFO:root:2021-04-07 03:50:06.035103: script executed successfully
+INFO:root:2021-04-07 04:01:00.159096: starting script execution
+INFO:root:2021-04-07 04:01:00.159222: no new data to process
+INFO:root:2021-04-07 04:01:00.159286: script executed successfully
