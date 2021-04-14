@@ -4965,7 +4965,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-04-09,British Columbia,canada,1025019.0,1403510.0,5145851.0,British Columbia
 2021-04-10,British Columbia,canada,1025019.0,1403510.0,5145851.0,British Columbia
 2021-04-11,British Columbia,canada,1025019.0,1403510.0,5145851.0,British Columbia
-2021-04-12,British Columbia,canada,1112101.0,1403510.0,5145851.0,British Columbia
+2021-04-12,British Columbia,canada,1112101.0,1498430.0,5145851.0,British Columbia
 2021-04-13,British Columbia,canada,1148993.0,1498430.0,5145851.0,British Columbia
 2021-01-12,Manitoba,canada,10353.0,25825.0,1379584.0,Prairies
 2021-01-13,Manitoba,canada,12409.0,25825.0,1379584.0,Prairies
@@ -5609,8 +5609,8 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-04-09,Ontario,canada,2940166.0,4028725.0,14733119.0,Ontario
 2021-04-10,Ontario,canada,3044949.0,4028725.0,14733119.0,Ontario
 2021-04-11,Ontario,canada,3139743.0,4028725.0,14733119.0,Ontario
-2021-04-12,Ontario,canada,3214465.0,4028725.0,14733119.0,Ontario
-2021-04-13,Ontario,canada,3310157.0,4028725.0,14733119.0,Ontario
+2021-04-12,Ontario,canada,3214465.0,4506495.0,14733119.0,Ontario
+2021-04-13,Ontario,canada,3310157.0,4506495.0,14733119.0,Ontario
 2021-01-12,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-13,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-14,Prince Edward Island,canada,5102.0,8250.0,159713.0,Atlantic
@@ -5793,8 +5793,8 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-04-09,Quebec,canada,1754749.0,2358095.0,8575779.0,Quebec
 2021-04-10,Quebec,canada,1829011.0,2429695.0,8575779.0,Quebec
 2021-04-11,Quebec,canada,1890476.0,2429695.0,8575779.0,Quebec
-2021-04-12,Quebec,canada,1944877.0,2429695.0,8575779.0,Quebec
-2021-04-13,Quebec,canada,2005106.0,2633275.0,8575779.0,Quebec
+2021-04-12,Quebec,canada,1944877.0,2640267.0,8575779.0,Quebec
+2021-04-13,Quebec,canada,2005106.0,2640267.0,8575779.0,Quebec
 2021-01-12,Saskatchewan,canada,9880.0,17575.0,1177884.0,Prairies
 2021-01-13,Saskatchewan,canada,10400.0,17575.0,1177884.0,Prairies
 2021-01-14,Saskatchewan,canada,11985.0,24400.0,1177884.0,Prairies
