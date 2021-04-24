@@ -16024,3 +16024,6 @@ INFO:root:2021-04-24 17:41:10.966112: script executed successfully
 INFO:root:2021-04-24 18:00:50.042937: starting script execution
 INFO:root:2021-04-24 18:00:50.043079: no new data to process
 INFO:root:2021-04-24 18:00:50.043142: script executed successfully
+INFO:root:2021-04-24 18:17:21.849145: starting script execution
+INFO:root:2021-04-24 18:17:21.849272: new data found, processing
+INFO:root:2021-04-24 18:17:22.508470: script executed successfully
