@@ -21669,3 +21669,7 @@ INFO:root:2021-05-09 19:32:56.874709: starting script execution
 WARNING:root:2021-05-09 19:32:57.725372: countries out of sync
 INFO:root:2021-05-09 19:32:57.745510: no new data found
 INFO:root:2021-05-09 19:32:57.745607: script executed successfully
+INFO:root:2021-05-09 19:41:39.715416: starting script execution
+WARNING:root:2021-05-09 19:41:40.912979: countries out of sync
+INFO:root:2021-05-09 19:41:40.934405: no new data found
+INFO:root:2021-05-09 19:41:40.934557: script executed successfully
