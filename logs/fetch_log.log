@@ -23686,3 +23686,7 @@ INFO:root:2021-05-19 18:05:45.761153: starting script execution
 WARNING:root:2021-05-19 18:05:46.294884: countries out of sync
 INFO:root:2021-05-19 18:05:46.403084: new data found, writing to CSV
 INFO:root:2021-05-19 18:05:46.403233: script executed successfully
+INFO:root:2021-05-19 18:47:53.376861: starting script execution
+WARNING:root:2021-05-19 18:47:54.295655: countries out of sync
+INFO:root:2021-05-19 18:47:54.316425: no new data found
+INFO:root:2021-05-19 18:47:54.316500: script executed successfully
