@@ -21979,3 +21979,6 @@ INFO:root:2021-05-20 18:17:57.387641: script executed successfully
 INFO:root:2021-05-20 19:00:18.377965: starting script execution
 INFO:root:2021-05-20 19:00:18.378122: no new data to process
 INFO:root:2021-05-20 19:00:18.378180: script executed successfully
+INFO:root:2021-05-20 19:32:13.706608: starting script execution
+INFO:root:2021-05-20 19:32:13.706733: new data found, processing
+INFO:root:2021-05-20 19:32:14.382623: script executed successfully
