@@ -83,6 +83,11 @@ app.layout = html.Div(
                                 'font-size': 19
                             }
                         ),
+                        html.Label(['Link to code on GitHub', html.A('link', href='https://github.com/ubco-mds-2020-labs/covid_vaccine_dashboard')],
+                            style={'font-family': 'sans-serif',
+                                'font-size': 19
+                            }
+                        ),
                         html.Iframe(srcDoc=plot_upper_dash(),
                                     style={'width': '100%',
                                         'height': '1100px',
@@ -151,7 +156,7 @@ app.layout = html.Div(
                                 )])])
                     ],
                 ),
-                
+
             ]
         ),
     ]
