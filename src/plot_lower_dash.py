@@ -1,4 +1,5 @@
 import altair as alt
+alt.data_transformers.disable_max_rows()
 import pandas as pd
 import numpy as np
 
@@ -28,13 +29,13 @@ def plot_lower_dash(location_choice,
     titleFontSize=30
     legendtitleFontSize=30
     legendlabelFontSize=25
-    
+
     if location_choice == 'States and Provinces':
         chart = alt.Chart(data, title='State and Provincial Vaccine Data Over Time').mark_line().encode(
-                x=alt.X('date:T', 
+                x=alt.X('date:T',
                     axis=alt.Axis(title='Date', format=("%b %d"), values=list(data['date']))),
                 y=metric_dropdown,
-                color=alt.Color('location', 
+                color=alt.Color('location',
                                 legend=alt.Legend(title="Location"),
                                 sort=my_dropdown, # sort=['California', 'Texas'], # sort=my_dropdown
                     ),
@@ -57,7 +58,7 @@ def plot_lower_dash(location_choice,
 
     elif location_choice == 'Regions':
         region_chart = alt.Chart(data_div, title='Regional Vaccine Data Over Time').mark_line().encode(
-                x=alt.X('date:T', 
+                x=alt.X('date:T',
                     axis=alt.Axis(title='Date', format=("%b %d"), values=list(data['date']))),
                 y=metric_dropdown,
                 color=alt.Color('division',

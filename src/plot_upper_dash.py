@@ -1,4 +1,5 @@
 import altair as alt
+alt.data_transformers.disable_max_rows()
 import pandas as pd
 import geopandas as gpd
 import shapely
@@ -127,5 +128,5 @@ def plot_upper_dash():
                             ).configure_legend(
                                 titleFontSize=18,
                                 labelFontSize=15
-                            ) 
+                            )
     return upper_plot.to_html()
