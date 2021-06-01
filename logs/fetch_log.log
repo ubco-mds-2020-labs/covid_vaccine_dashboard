@@ -25349,3 +25349,7 @@ INFO:root:2021-05-31 23:14:24.851240: script executed successfully
 INFO:root:2021-06-01 00:11:01.771978: starting script execution
 INFO:root:2021-06-01 00:11:02.352050: no new data found
 INFO:root:2021-06-01 00:11:02.352182: script executed successfully
+INFO:root:2021-06-01 03:56:59.199959: starting script execution
+WARNING:root:2021-06-01 03:56:59.832729: countries out of sync
+INFO:root:2021-06-01 03:56:59.857384: no new data found
+INFO:root:2021-06-01 03:56:59.857536: script executed successfully
