@@ -28132,3 +28132,6 @@ INFO:root:2021-06-25 18:52:39.638902: script executed successfully
 INFO:root:2021-06-25 19:00:10.117091: starting script execution
 INFO:root:2021-06-25 19:00:10.117210: no new data to process
 INFO:root:2021-06-25 19:00:10.117261: script executed successfully
+INFO:root:2021-06-25 19:14:55.018172: starting script execution
+INFO:root:2021-06-25 19:14:55.018289: new data found, processing
+INFO:root:2021-06-25 19:14:55.624709: script executed successfully
