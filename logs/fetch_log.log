@@ -32167,3 +32167,6 @@ INFO:root:2021-06-30 14:00:30.016727: script executed successfully
 INFO:root:2021-06-30 14:17:41.186833: starting script execution
 INFO:root:2021-06-30 14:17:41.708921: no new data found
 INFO:root:2021-06-30 14:17:41.709050: script executed successfully
+INFO:root:2021-06-30 14:29:33.708437: starting script execution
+ERROR:root:2021-06-30 14:31:43.577047: fetching Canada vaccine data failed
+ERROR:root:2021-06-30 14:31:43.577358: execution halted
