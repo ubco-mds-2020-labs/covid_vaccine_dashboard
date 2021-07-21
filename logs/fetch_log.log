@@ -39470,3 +39470,7 @@ INFO:root:2021-07-21 18:52:18.971600: script executed successfully
 INFO:root:2021-07-21 18:59:36.571439: starting script execution
 INFO:root:2021-07-21 18:59:37.671322: no new data found
 INFO:root:2021-07-21 18:59:37.671456: script executed successfully
+INFO:root:2021-07-21 19:14:24.477877: starting script execution
+WARNING:root:2021-07-21 19:14:25.376206: countries out of sync
+INFO:root:2021-07-21 19:14:25.569323: new data found, writing to CSV
+INFO:root:2021-07-21 19:14:25.569465: script executed successfully
