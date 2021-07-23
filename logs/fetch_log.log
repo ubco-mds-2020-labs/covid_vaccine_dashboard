@@ -40170,3 +40170,7 @@ INFO:root:2021-07-23 20:45:58.208962: script executed successfully
 INFO:root:2021-07-23 20:54:04.105154: starting script execution
 INFO:root:2021-07-23 20:54:05.217334: no new data found
 INFO:root:2021-07-23 20:54:05.217488: script executed successfully
+INFO:root:2021-07-23 21:02:28.204399: starting script execution
+WARNING:root:2021-07-23 21:02:29.044108: countries out of sync
+INFO:root:2021-07-23 21:02:29.211772: new data found, writing to CSV
+INFO:root:2021-07-23 21:02:29.211938: script executed successfully
