@@ -40907,3 +40907,7 @@ INFO:root:2021-07-25 22:07:57.376161: starting script execution
 WARNING:root:2021-07-25 22:07:57.868703: countries out of sync
 INFO:root:2021-07-25 22:07:57.896359: no new data found
 INFO:root:2021-07-25 22:07:57.896508: script executed successfully
+INFO:root:2021-07-25 22:25:26.024437: starting script execution
+WARNING:root:2021-07-25 22:25:27.292955: countries out of sync
+INFO:root:2021-07-25 22:25:27.319134: no new data found
+INFO:root:2021-07-25 22:25:27.319286: script executed successfully
