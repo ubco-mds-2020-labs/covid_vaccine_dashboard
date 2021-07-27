@@ -41514,3 +41514,7 @@ INFO:root:2021-07-27 20:03:27.023632: starting script execution
 WARNING:root:2021-07-27 20:03:28.391538: countries out of sync
 INFO:root:2021-07-27 20:03:28.528471: new data found, writing to CSV
 INFO:root:2021-07-27 20:03:28.528593: script executed successfully
+INFO:root:2021-07-27 20:21:40.940163: starting script execution
+WARNING:root:2021-07-27 20:21:42.405367: countries out of sync
+INFO:root:2021-07-27 20:21:42.435752: no new data found
+INFO:root:2021-07-27 20:21:42.435866: script executed successfully
