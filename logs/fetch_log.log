@@ -41270,3 +41270,6 @@ INFO:root:2021-07-27 00:33:07.372114: script executed successfully
 INFO:root:2021-07-27 01:47:46.412621: starting script execution
 INFO:root:2021-07-27 01:47:47.512063: new data found, writing to CSV
 INFO:root:2021-07-27 01:47:47.512197: script executed successfully
+INFO:root:2021-07-27 02:20:29.425485: starting script execution
+INFO:root:2021-07-27 02:20:30.458851: no new data found
+INFO:root:2021-07-27 02:20:30.458988: script executed successfully
