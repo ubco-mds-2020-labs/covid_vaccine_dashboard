@@ -48125,3 +48125,7 @@ INFO:root:2021-08-12 00:22:24.270048: starting script execution
 WARNING:root:2021-08-12 00:22:24.619301: countries out of sync
 INFO:root:2021-08-12 00:22:24.646783: no new data found
 INFO:root:2021-08-12 00:22:24.646934: script executed successfully
+INFO:root:2021-08-12 00:40:39.341759: starting script execution
+WARNING:root:2021-08-12 00:40:40.177318: countries out of sync
+INFO:root:2021-08-12 00:40:40.200436: no new data found
+INFO:root:2021-08-12 00:40:40.200552: script executed successfully
