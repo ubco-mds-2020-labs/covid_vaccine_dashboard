@@ -52203,3 +52203,7 @@ INFO:root:2021-08-19 21:44:27.021324: starting script execution
 WARNING:root:2021-08-19 21:44:27.967535: countries out of sync
 INFO:root:2021-08-19 21:44:27.995476: no new data found
 INFO:root:2021-08-19 21:44:27.995630: script executed successfully
+INFO:root:2021-08-19 21:50:27.788220: starting script execution
+WARNING:root:2021-08-19 21:50:28.297933: countries out of sync
+INFO:root:2021-08-19 21:50:28.321520: no new data found
+INFO:root:2021-08-19 21:50:28.321646: script executed successfully
