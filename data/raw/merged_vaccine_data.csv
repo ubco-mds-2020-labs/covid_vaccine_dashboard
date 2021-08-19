@@ -217,6 +217,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Alabama,usa,3792348.0,5554810.0,4903377.894009386,East South Central
 2021-08-16,Alabama,usa,3815944.0,5554810.0,4903377.894009386,East South Central
 2021-08-17,Alabama,usa,3828166.0,5581220.0,4903377.894009386,East South Central
+2021-08-18,Alabama,usa,3838861.0,5631430.0,4903377.894009386,East South Central
 2021-01-12,Alaska,usa,35838.0,141600.0,731542.7334767497,Pacific
 2021-01-13,Alaska,usa,38680.0,149475.0,731542.7334767497,Pacific
 2021-01-14,Alaska,usa,42596.0,150450.0,731542.7334767497,Pacific
@@ -435,6 +436,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Alaska,usa,709232.0,882985.0,731542.7334767497,Pacific
 2021-08-16,Alaska,usa,711092.0,882985.0,731542.7334767497,Pacific
 2021-08-17,Alaska,usa,711778.0,885235.0,731542.7334767497,Pacific
+2021-08-18,Alaska,usa,712734.0,887705.0,731542.7334767497,Pacific
 2021-01-12,Arizona,usa,141355.0,563025.0,7278599.640883365,Mountain
 2021-01-13,Arizona,usa,154745.0,569525.0,7278599.640883365,Mountain
 2021-01-14,Arizona,usa,173665.0,570625.0,7278599.640883365,Mountain
@@ -653,6 +655,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Arizona,usa,7323382.0,8881820.0,7278599.640883365,Mountain
 2021-08-16,Arizona,usa,7339062.0,8881820.0,7278599.640883365,Mountain
 2021-08-17,Arizona,usa,7347251.0,8901590.0,7278599.640883365,Mountain
+2021-08-18,Arizona,usa,7359223.0,8925870.0,7278599.640883365,Mountain
 2021-01-12,Arkansas,usa,40879.0,274400.0,3017857.4854911724,West South Central
 2021-01-13,Arkansas,usa,94854.0,297800.0,3017857.4854911724,West South Central
 2021-01-14,Arkansas,usa,108316.0,297800.0,3017857.4854911724,West South Central
@@ -871,6 +874,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Arkansas,usa,2623952.0,3348790.0,3017857.4854911724,West South Central
 2021-08-16,Arkansas,usa,2630531.0,3348650.0,3017857.4854911724,West South Central
 2021-08-17,Arkansas,usa,2638290.0,3374320.0,3017857.4854911724,West South Central
+2021-08-18,Arkansas,usa,2652240.0,3422170.0,3017857.4854911724,West South Central
 2021-01-12,California,usa,816301.0,3286050.0,39510896.038966574,Pacific
 2021-01-13,California,usa,891489.0,3435650.0,39510896.038966574,Pacific
 2021-01-14,California,usa,975293.0,3540175.0,39510896.038966574,Pacific
@@ -1089,6 +1093,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,California,usa,46466637.0,52593245.0,39510896.038966574,Pacific
 2021-08-16,California,usa,46585588.0,52593385.0,39510896.038966574,Pacific
 2021-08-17,California,usa,46635211.0,52722945.0,39510896.038966574,Pacific
+2021-08-18,California,usa,46720908.0,53025935.0,39510896.038966574,Pacific
 2021-01-12,Colorado,usa,224428.0,516750.0,5758798.587309123,Mountain
 2021-01-13,Colorado,usa,239665.0,530800.0,5758798.587309123,Mountain
 2021-01-14,Colorado,usa,254706.0,531775.0,5758798.587309123,Mountain
@@ -1307,6 +1312,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Colorado,usa,6629016.0,7408845.0,5758798.587309123,Mountain
 2021-08-16,Colorado,usa,6635972.0,7408845.0,5758798.587309123,Mountain
 2021-08-17,Colorado,usa,6645087.0,7415615.0,5758798.587309123,Mountain
+2021-08-18,Colorado,usa,6657464.0,7423735.0,5758798.587309123,Mountain
 2021-01-12,Connecticut,usa,151395.0,250775.0,3565314.190434837,New England
 2021-01-13,Connecticut,usa,161875.0,315025.0,3565314.190434837,New England
 2021-01-14,Connecticut,usa,171897.0,328675.0,3565314.190434837,New England
@@ -1525,6 +1531,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Connecticut,usa,4693787.0,5084695.0,3565314.190434837,New England
 2021-08-16,Connecticut,usa,4700511.0,5084695.0,3565314.190434837,New England
 2021-08-17,Connecticut,usa,4705268.0,5105825.0,3565314.190434837,New England
+2021-08-18,Connecticut,usa,4712472.0,5126195.0,3565314.190434837,New England
 2021-01-12,Delaware,usa,26410.0,88325.0,973763.2663257533,South Atlantic
 2021-01-13,Delaware,usa,28413.0,91250.0,973763.2663257533,South Atlantic
 2021-01-14,Delaware,usa,31090.0,91250.0,973763.2663257533,South Atlantic
@@ -1743,6 +1750,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Delaware,usa,1115654.0,1381315.0,973763.2663257533,South Atlantic
 2021-08-16,Delaware,usa,1119368.0,1381315.0,973763.2663257533,South Atlantic
 2021-08-17,Delaware,usa,1120565.0,1382945.0,973763.2663257533,South Atlantic
+2021-08-18,Delaware,usa,1122349.0,1395625.0,973763.2663257533,South Atlantic
 2021-01-12,District of Columbia,usa,29812.0,62725.0,705754.14626617,South Atlantic
 2021-01-13,District of Columbia,usa,33049.0,68325.0,705754.14626617,South Atlantic
 2021-01-14,District of Columbia,usa,36679.0,68325.0,705754.14626617,South Atlantic
@@ -1961,6 +1969,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,District of Columbia,usa,924434.0,1112335.0,705754.14626617,South Atlantic
 2021-08-16,District of Columbia,usa,925235.0,1112335.0,705754.14626617,South Atlantic
 2021-08-17,District of Columbia,usa,926236.0,1114385.0,705754.14626617,South Atlantic
+2021-08-18,District of Columbia,usa,927179.0,1116715.0,705754.14626617,South Atlantic
 2021-01-12,Florida,usa,633440.0,1676300.0,21478046.82794968,South Atlantic
 2021-01-13,Florida,usa,705398.0,1680200.0,21478046.82794968,South Atlantic
 2021-01-14,Florida,usa,774485.0,1970875.0,21478046.82794968,South Atlantic
@@ -2179,6 +2188,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Florida,usa,23606283.0,28156095.0,21478046.82794968,South Atlantic
 2021-08-16,Florida,usa,23676657.0,28156095.0,21478046.82794968,South Atlantic
 2021-08-17,Florida,usa,23738822.0,28233385.0,21478046.82794968,South Atlantic
+2021-08-18,Florida,usa,23806424.0,28424665.0,21478046.82794968,South Atlantic
 2021-01-12,Georgia,usa,170571.0,960975.0,10617476.280993093,South Atlantic
 2021-01-13,Georgia,usa,198756.0,1003975.0,10617476.280993093,South Atlantic
 2021-01-14,Georgia,usa,231305.0,1010900.0,10617476.280993093,South Atlantic
@@ -2397,6 +2407,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Georgia,usa,9210328.0,12292995.0,10617476.280993093,South Atlantic
 2021-08-16,Georgia,usa,9314949.0,12292995.0,10617476.280993093,South Atlantic
 2021-08-17,Georgia,usa,9314971.0,12313595.0,10617476.280993093,South Atlantic
+2021-08-18,Georgia,usa,9315548.0,12366795.0,10617476.280993093,South Atlantic
 2021-01-12,Hawaii,usa,33483.0,141750.0,1415875.2644115847,Pacific
 2021-01-13,Hawaii,usa,36605.0,154150.0,1415875.2644115847,Pacific
 2021-01-14,Hawaii,usa,47985.0,154150.0,1415875.2644115847,Pacific
@@ -2615,6 +2626,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Hawaii,usa,1744877.0,2029120.0,1415875.2644115847,Pacific
 2021-08-16,Hawaii,usa,1745661.0,2029120.0,1415875.2644115847,Pacific
 2021-08-17,Hawaii,usa,1747329.0,2029120.0,1415875.2644115847,Pacific
+2021-08-18,Hawaii,usa,1747710.0,2037950.0,1415875.2644115847,Pacific
 2021-01-12,Idaho,usa,35845.0,146750.0,1787014.6027219156,Mountain
 2021-01-13,Idaho,usa,38872.0,158125.0,1787014.6027219156,Mountain
 2021-01-14,Idaho,usa,42586.0,160075.0,1787014.6027219156,Mountain
@@ -2833,6 +2845,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Idaho,usa,1407457.0,1819360.0,1787014.6027219156,Mountain
 2021-08-16,Idaho,usa,1409809.0,1819360.0,1787014.6027219156,Mountain
 2021-08-17,Idaho,usa,1411173.0,1831140.0,1787014.6027219156,Mountain
+2021-08-18,Idaho,usa,1414128.0,1841950.0,1787014.6027219156,Mountain
 2021-01-12,Illinois,usa,347005.0,903100.0,12671712.734605314,East North Central
 2021-01-13,Illinois,usa,365859.0,920225.0,12671712.734605314,East North Central
 2021-01-14,Illinois,usa,403666.0,958125.0,12671712.734605314,East North Central
@@ -3051,6 +3064,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Illinois,usa,14084250.0,15906245.0,12671712.734605314,East North Central
 2021-08-16,Illinois,usa,14140656.0,15906245.0,12671712.734605314,East North Central
 2021-08-17,Illinois,usa,14180536.0,15935405.0,12671712.734605314,East North Central
+2021-08-18,Illinois,usa,14201829.0,16018835.0,12671712.734605314,East North Central
 2021-01-12,Indiana,usa,191844.0,540475.0,6732111.695199507,East North Central
 2021-01-13,Indiana,usa,211334.0,579050.0,6732111.695199507,East North Central
 2021-01-14,Indiana,usa,233488.0,630025.0,6732111.695199507,East North Central
@@ -3269,6 +3283,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Indiana,usa,6224821.0,7285390.0,6732111.695199507,East North Central
 2021-08-16,Indiana,usa,6234871.0,7285490.0,6732111.695199507,East North Central
 2021-08-17,Indiana,usa,6241412.0,7308830.0,6732111.695199507,East North Central
+2021-08-18,Indiana,usa,6251823.0,7324560.0,6732111.695199507,East North Central
 2021-01-12,Iowa,usa,98691.0,208875.0,3155079.097625157,West North Central
 2021-01-13,Iowa,usa,112093.0,264125.0,3155079.097625157,West North Central
 2021-01-14,Iowa,usa,112093.0,268025.0,3155079.097625157,West North Central
@@ -3487,6 +3502,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Iowa,usa,3210527.0,3702355.0,3155079.097625157,West North Central
 2021-08-16,Iowa,usa,3210561.0,3702355.0,3155079.097625157,West North Central
 2021-08-17,Iowa,usa,3223458.0,3708305.0,3155079.097625157,West North Central
+2021-08-18,Iowa,usa,3228390.0,3740125.0,3155079.097625157,West North Central
 2021-01-12,Kansas,usa,78268.0,193175.0,2913258.2493474837,West North Central
 2021-01-13,Kansas,usa,85650.0,261175.0,2913258.2493474837,West North Central
 2021-01-14,Kansas,usa,91565.0,263175.0,2913258.2493474837,West North Central
@@ -3705,6 +3721,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Kansas,usa,2798136.0,3391935.0,2913258.2493474837,West North Central
 2021-08-16,Kansas,usa,2803226.0,3391935.0,2913258.2493474837,West North Central
 2021-08-17,Kansas,usa,2807083.0,3403155.0,2913258.2493474837,West North Central
+2021-08-18,Kansas,usa,2813453.0,3414525.0,2913258.2493474837,West North Central
 2021-01-12,Kentucky,usa,132114.0,329450.0,4467669.930522959,East South Central
 2021-01-13,Kentucky,usa,142436.0,329450.0,4467669.930522959,East South Central
 2021-01-14,Kentucky,usa,155613.0,332375.0,4467669.930522959,East South Central
@@ -3923,6 +3940,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Kentucky,usa,4350464.0,4910595.0,4467669.930522959,East South Central
 2021-08-16,Kentucky,usa,4359718.0,4910595.0,4467669.930522959,East South Central
 2021-08-17,Kentucky,usa,4366259.0,4925045.0,4467669.930522959,East South Central
+2021-08-18,Kentucky,usa,4377714.0,4936355.0,4467669.930522959,East South Central
 2021-01-12,Louisiana,usa,142771.0,368300.0,4648717.483113936,West South Central
 2021-01-13,Louisiana,usa,156186.0,369475.0,4648717.483113936,West South Central
 2021-01-14,Louisiana,usa,175811.0,370175.0,4648717.483113936,West South Central
@@ -4141,6 +4159,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Louisiana,usa,3890510.0,4819850.0,4648717.483113936,West South Central
 2021-08-16,Louisiana,usa,3926754.0,4819850.0,4648717.483113936,West South Central
 2021-08-17,Louisiana,usa,3938931.0,4862970.0,4648717.483113936,West South Central
+2021-08-18,Louisiana,usa,3957850.0,4898850.0,4648717.483113936,West South Central
 2021-01-12,Maine,usa,54945.0,132975.0,1344164.1452588998,New England
 2021-01-13,Maine,usa,57248.0,136875.0,1344164.1452588998,New England
 2021-01-14,Maine,usa,61129.0,136875.0,1344164.1452588998,New England
@@ -4359,6 +4378,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Maine,usa,1697679.0,1961760.0,1344164.1452588998,New England
 2021-08-16,Maine,usa,1698175.0,1961760.0,1344164.1452588998,New England
 2021-08-17,Maine,usa,1703145.0,1971200.0,1344164.1452588998,New England
+2021-08-18,Maine,usa,1705035.0,1973500.0,1344164.1452588998,New England
 2021-01-12,Maryland,usa,146231.0,552800.0,6045521.515553005,South Atlantic
 2021-01-13,Maryland,usa,178056.0,561500.0,6045521.515553005,South Atlantic
 2021-01-14,Maryland,usa,178056.0,564625.0,6045521.515553005,South Atlantic
@@ -4577,6 +4597,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Maryland,usa,7382630.0,9014710.0,6045521.515553005,South Atlantic
 2021-08-16,Maryland,usa,7390435.0,9014710.0,6045521.515553005,South Atlantic
 2021-08-17,Maryland,usa,7402041.0,9024730.0,6045521.515553005,South Atlantic
+2021-08-18,Maryland,usa,7416102.0,9033450.0,6045521.515553005,South Atlantic
 2021-01-12,Massachusetts,usa,204082.0,476025.0,6892664.605243988,New England
 2021-01-13,Massachusetts,usa,217443.0,656850.0,6892664.605243988,New England
 2021-01-14,Massachusetts,usa,233476.0,669225.0,6892664.605243988,New England
@@ -4795,6 +4816,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Massachusetts,usa,9277928.0,10173240.0,6892664.605243988,New England
 2021-08-16,Massachusetts,usa,9296888.0,10173240.0,6892664.605243988,New England
 2021-08-17,Massachusetts,usa,9304511.0,10193310.0,6892664.605243988,New England
+2021-08-18,Massachusetts,usa,9314110.0,10214800.0,6892664.605243988,New England
 2021-01-12,Michigan,usa,227685.0,768150.0,9986741.495607004,East North Central
 2021-01-13,Michigan,usa,291519.0,772150.0,9986741.495607004,East North Central
 2021-01-14,Michigan,usa,327235.0,773650.0,9986741.495607004,East North Central
@@ -5013,6 +5035,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Michigan,usa,9971999.0,12324830.0,9986741.495607004,East North Central
 2021-08-16,Michigan,usa,9980408.0,12324830.0,9986741.495607004,East North Central
 2021-08-17,Michigan,usa,9986330.0,12344500.0,9986741.495607004,East North Central
+2021-08-18,Michigan,usa,9999143.0,12458850.0,9986741.495607004,East North Central
 2021-01-12,Minnesota,usa,162240.0,453200.0,5639516.971125714,West North Central
 2021-01-13,Minnesota,usa,165355.0,511200.0,5639516.971125714,West North Central
 2021-01-14,Minnesota,usa,179684.0,516800.0,5639516.971125714,West North Central
@@ -5231,6 +5254,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Minnesota,usa,6206265.0,6900160.0,5639516.971125714,West North Central
 2021-08-16,Minnesota,usa,6225479.0,6900160.0,5639516.971125714,West North Central
 2021-08-17,Minnesota,usa,6230251.0,6944820.0,5639516.971125714,West North Central
+2021-08-18,Minnesota,usa,6240273.0,6988680.0,5639516.971125714,West North Central
 2021-01-12,Mississippi,usa,54544.0,212050.0,2976156.161860744,East South Central
 2021-01-13,Mississippi,usa,61289.0,218825.0,2976156.161860744,East South Central
 2021-01-14,Mississippi,usa,71848.0,219800.0,2976156.161860744,East South Central
@@ -5449,6 +5473,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Mississippi,usa,2293055.0,3114405.0,2976156.161860744,East South Central
 2021-08-16,Mississippi,usa,2293118.0,3114405.0,2976156.161860744,East South Central
 2021-08-17,Mississippi,usa,2323102.0,3148655.0,2976156.161860744,East South Central
+2021-08-18,Mississippi,usa,2335226.0,3167515.0,2976156.161860744,East South Central
 2021-01-12,Missouri,usa,161784.0,485175.0,6137454.096555489,West North Central
 2021-01-13,Missouri,usa,161784.0,526425.0,6137454.096555489,West North Central
 2021-01-14,Missouri,usa,175314.0,528300.0,6137454.096555489,West North Central
@@ -5667,6 +5692,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Missouri,usa,5721638.0,6895795.0,6137454.096555489,West North Central
 2021-08-16,Missouri,usa,5721786.0,6895795.0,6137454.096555489,West North Central
 2021-08-17,Missouri,usa,5730302.0,6908775.0,6137454.096555489,West North Central
+2021-08-18,Missouri,usa,5730667.0,6933265.0,6137454.096555489,West North Central
 2021-01-12,Montana,usa,42083.0,78350.0,1068777.3857814155,Mountain
 2021-01-13,Montana,usa,44063.0,89550.0,1068777.3857814155,Mountain
 2021-01-14,Montana,usa,46620.0,98500.0,1068777.3857814155,Mountain
@@ -5885,6 +5911,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Montana,usa,993113.0,1165965.0,1068777.3857814155,Mountain
 2021-08-16,Montana,usa,993153.0,1165965.0,1068777.3857814155,Mountain
 2021-08-17,Montana,usa,993158.0,1169785.0,1068777.3857814155,Mountain
+2021-08-18,Montana,usa,998009.0,1172395.0,1068777.3857814155,Mountain
 2021-01-12,Nebraska,usa,74439.0,177375.0,1934407.011206609,West North Central
 2021-01-13,Nebraska,usa,79699.0,199800.0,1934407.011206609,West North Central
 2021-01-14,Nebraska,usa,84920.0,199800.0,1934407.011206609,West North Central
@@ -6103,6 +6130,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Nebraska,usa,1994341.0,2241940.0,1934407.011206609,West North Central
 2021-08-16,Nebraska,usa,2002335.0,2241940.0,1934407.011206609,West North Central
 2021-08-17,Nebraska,usa,2004577.0,2244160.0,1934407.011206609,West North Central
+2021-08-18,Nebraska,usa,2004663.0,2249520.0,1934407.011206609,West North Central
 2021-01-12,Nevada,usa,61653.0,207150.0,3080095.4830844435,Mountain
 2021-01-13,Nevada,usa,61653.0,207150.0,3080095.4830844435,Mountain
 2021-01-14,Nevada,usa,76844.0,210075.0,3080095.4830844435,Mountain
@@ -6321,6 +6349,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Nevada,usa,3076968.0,3477630.0,3080095.4830844435,Mountain
 2021-08-16,Nevada,usa,3086881.0,3477630.0,3080095.4830844435,Mountain
 2021-08-17,Nevada,usa,3091757.0,3487330.0,3080095.4830844435,Mountain
+2021-08-18,Nevada,usa,3097258.0,3494890.0,3080095.4830844435,Mountain
 2021-01-12,New Hampshire,usa,50613.0,122350.0,1359710.4263077083,New England
 2021-01-13,New Hampshire,usa,55218.0,124300.0,1359710.4263077083,New England
 2021-01-14,New Hampshire,usa,58711.0,127225.0,1359710.4263077083,New England
@@ -6539,6 +6568,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,New Hampshire,usa,1619487.0,1950350.0,1359710.4263077083,New England
 2021-08-16,New Hampshire,usa,1621082.0,1950350.0,1359710.4263077083,New England
 2021-08-17,New Hampshire,usa,1622109.0,1956610.0,1359710.4263077083,New England
+2021-08-18,New Hampshire,usa,1626150.0,1962010.0,1359710.4263077083,New England
 2021-01-12,New Jersey,usa,221045.0,654900.0,8881944.174621861,Middle Atlantic
 2021-01-13,New Jersey,usa,262982.0,654900.0,8881944.174621861,Middle Atlantic
 2021-01-14,New Jersey,usa,263422.0,658800.0,8881944.174621861,Middle Atlantic
@@ -6757,6 +6787,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,New Jersey,usa,10650221.0,12481845.0,8881944.174621861,Middle Atlantic
 2021-08-16,New Jersey,usa,10667461.0,12481845.0,8881944.174621861,Middle Atlantic
 2021-08-17,New Jersey,usa,10689164.0,12509705.0,8881944.174621861,Middle Atlantic
+2021-08-18,New Jersey,usa,10703850.0,12555385.0,8881944.174621861,Middle Atlantic
 2021-01-12,New Mexico,usa,78235.0,177075.0,2096854.6119662537,Mountain
 2021-01-13,New Mexico,usa,81855.0,199525.0,2096854.6119662537,Mountain
 2021-01-14,New Mexico,usa,89415.0,204750.0,2096854.6119662537,Mountain
@@ -6975,6 +7006,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,New Mexico,usa,2542728.0,2521275.0,2096854.6119662537,Mountain
 2021-08-16,New Mexico,usa,2552938.0,2521275.0,2096854.6119662537,Mountain
 2021-08-17,New Mexico,usa,2555140.0,2537125.0,2096854.6119662537,Mountain
+2021-08-18,New Mexico,usa,2559741.0,2554245.0,2096854.6119662537,Mountain
 2021-01-12,New York State,usa,579532.0,1622100.0,19453710.161293674,Middle Atlantic
 2021-01-13,New York State,usa,632473.0,1796850.0,19453710.161293674,Middle Atlantic
 2021-01-14,New York State,usa,688576.0,1872625.0,19453710.161293674,Middle Atlantic
@@ -7193,6 +7225,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,New York State,usa,23595998.0,25853125.0,19453710.161293674,Middle Atlantic
 2021-08-16,New York State,usa,23640655.0,25853125.0,19453710.161293674,Middle Atlantic
 2021-08-17,New York State,usa,23672324.0,26036595.0,19453710.161293674,Middle Atlantic
+2021-08-18,New York State,usa,23720019.0,26193075.0,19453710.161293674,Middle Atlantic
 2021-01-12,North Carolina,usa,211610.0,836450.0,10487806.709547345,South Atlantic
 2021-01-13,North Carolina,usa,266938.0,852000.0,10487806.709547345,South Atlantic
 2021-01-14,North Carolina,usa,268212.0,969700.0,10487806.709547345,South Atlantic
@@ -7411,6 +7444,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,North Carolina,usa,10029789.0,12617760.0,10487806.709547345,South Atlantic
 2021-08-16,North Carolina,usa,10057756.0,12617900.0,10487806.709547345,South Atlantic
 2021-08-17,North Carolina,usa,10071589.0,12648490.0,10487806.709547345,South Atlantic
+2021-08-18,North Carolina,usa,10096297.0,12668580.0,10487806.709547345,South Atlantic
 2021-01-12,North Dakota,usa,39479.0,53525.0,762076.9940017657,West North Central
 2021-01-13,North Dakota,usa,40728.0,66725.0,762076.9940017657,West North Central
 2021-01-14,North Dakota,usa,42774.0,68675.0,762076.9940017657,West North Central
@@ -7629,6 +7663,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,North Dakota,usa,678556.0,767100.0,762076.9940017657,West North Central
 2021-08-16,North Dakota,usa,678889.0,767100.0,762076.9940017657,West North Central
 2021-08-17,North Dakota,usa,678916.0,768360.0,762076.9940017657,West North Central
+2021-08-18,North Dakota,usa,680169.0,769990.0,762076.9940017657,West North Central
 2021-01-12,Ohio,usa,311890.0,866050.0,11689037.856936531,East North Central
 2021-01-13,Ohio,usa,329318.0,957700.0,11689037.856936531,East North Central
 2021-01-14,Ohio,usa,348424.0,967450.0,11689037.856936531,East North Central
@@ -7847,6 +7882,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Ohio,usa,11329969.0,13299465.0,11689037.856936531,East North Central
 2021-08-16,Ohio,usa,11346445.0,13299465.0,11689037.856936531,East North Central
 2021-08-17,Ohio,usa,11355869.0,13340785.0,11689037.856936531,East North Central
+2021-08-18,Ohio,usa,11375906.0,13405495.0,11689037.856936531,East North Central
 2021-01-12,Oklahoma,usa,157843.0,381375.0,3956960.47880501,West South Central
 2021-01-13,Oklahoma,usa,172403.0,396975.0,3956960.47880501,West South Central
 2021-01-14,Oklahoma,usa,187266.0,399900.0,3956960.47880501,West South Central
@@ -8065,6 +8101,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Oklahoma,usa,3615884.0,4371800.0,3956960.47880501,West South Central
 2021-08-16,Oklahoma,usa,3624989.0,4371800.0,3956960.47880501,West South Central
 2021-08-17,Oklahoma,usa,3631632.0,4391280.0,3956960.47880501,West South Central
+2021-08-18,Oklahoma,usa,3642556.0,4443720.0,3956960.47880501,West South Central
 2021-01-12,Oregon,usa,104610.0,321425.0,4217665.861560626,Pacific
 2021-01-13,Oregon,usa,115075.0,325325.0,4217665.861560626,Pacific
 2021-01-14,Oregon,usa,129796.0,335075.0,4217665.861560626,Pacific
@@ -8283,6 +8320,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Oregon,usa,4830886.0,5946255.0,4217665.861560626,Pacific
 2021-08-16,Oregon,usa,4830925.0,5946255.0,4217665.861560626,Pacific
 2021-08-17,Oregon,usa,4833979.0,5966315.0,4217665.861560626,Pacific
+2021-08-18,Oregon,usa,4834026.0,5979865.0,4217665.861560626,Pacific
 2021-01-12,Pennsylvania,usa,341948.0,974725.0,12801734.267908344,Middle Atlantic
 2021-01-13,Pennsylvania,usa,379944.0,1017475.0,12801734.267908344,Middle Atlantic
 2021-01-14,Pennsylvania,usa,410414.0,1065300.0,12801734.267908344,Middle Atlantic
@@ -8501,6 +8539,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Pennsylvania,usa,14957548.0,16902445.0,12801734.267908344,Middle Atlantic
 2021-08-16,Pennsylvania,usa,14958601.0,16902585.0,12801734.267908344,Middle Atlantic
 2021-08-17,Pennsylvania,usa,14995134.0,16958855.0,12801734.267908344,Middle Atlantic
+2021-08-18,Pennsylvania,usa,15017532.0,17047365.0,12801734.267908344,Middle Atlantic
 2021-01-12,Rhode Island,usa,39568.0,80225.0,1059329.0032705553,New England
 2021-01-13,Rhode Island,usa,42028.0,82175.0,1059329.0032705553,New England
 2021-01-14,Rhode Island,usa,44871.0,84125.0,1059329.0032705553,New England
@@ -8719,6 +8758,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Rhode Island,usa,1355713.0,1592245.0,1059329.0032705553,New England
 2021-08-16,Rhode Island,usa,1359670.0,1592245.0,1059329.0032705553,New England
 2021-08-17,Rhode Island,usa,1361056.0,1595075.0,1059329.0032705553,New England
+2021-08-18,Rhode Island,usa,1361536.0,1598045.0,1059329.0032705553,New England
 2021-01-12,South Carolina,usa,81075.0,315950.0,5148736.755851032,South Atlantic
 2021-01-13,South Carolina,usa,99887.0,317450.0,5148736.755851032,South Atlantic
 2021-01-14,South Carolina,usa,115855.0,346150.0,5148736.755851032,South Atlantic
@@ -8937,6 +8977,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,South Carolina,usa,4580571.0,5826975.0,5148736.755851032,South Atlantic
 2021-08-16,South Carolina,usa,4594435.0,5826975.0,5148736.755851032,South Atlantic
 2021-08-17,South Carolina,usa,4602813.0,5896135.0,5148736.755851032,South Atlantic
+2021-08-18,South Carolina,usa,4614130.0,5920805.0,5148736.755851032,South Atlantic
 2021-01-12,South Dakota,usa,48698.0,83500.0,884660.0473033877,West North Central
 2021-01-13,South Dakota,usa,50712.0,88375.0,884660.0473033877,West North Central
 2021-01-14,South Dakota,usa,54284.0,88375.0,884660.0473033877,West North Central
@@ -9155,6 +9196,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,South Dakota,usa,872832.0,1025035.0,884660.0473033877,West North Central
 2021-08-16,South Dakota,usa,873082.0,1025035.0,884660.0473033877,West North Central
 2021-08-17,South Dakota,usa,875952.0,1027815.0,884660.0473033877,West North Central
+2021-08-18,South Dakota,usa,877662.0,1029915.0,884660.0473033877,West North Central
 2021-01-12,Tennessee,usa,251257.0,485800.0,6829190.406797364,East South Central
 2021-01-13,Tennessee,usa,264713.0,598000.0,6829190.406797364,East South Central
 2021-01-14,Tennessee,usa,264713.0,656550.0,6829190.406797364,East South Central
@@ -9373,6 +9415,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Tennessee,usa,5991013.0,7147290.0,6829190.406797364,East South Central
 2021-08-16,Tennessee,usa,6006963.0,7147290.0,6829190.406797364,East South Central
 2021-08-17,Tennessee,usa,6018549.0,7187620.0,6829190.406797364,East South Central
+2021-08-18,Tennessee,usa,6036973.0,7213610.0,6829190.406797364,East South Central
 2021-01-12,Texas,usa,911461.0,1949125.0,28995513.958574384,West South Central
 2021-01-13,Texas,usa,978042.0,1984225.0,28995513.958574384,West South Central
 2021-01-14,Texas,usa,1043624.0,2105600.0,28995513.958574384,West South Central
@@ -9591,6 +9634,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Texas,usa,28671337.0,35306135.0,28995513.958574384,West South Central
 2021-08-16,Texas,usa,28731472.0,35306415.0,28995513.958574384,West South Central
 2021-08-17,Texas,usa,28806473.0,35488695.0,28995513.958574384,West South Central
+2021-08-18,Texas,usa,28887326.0,35778825.0,28995513.958574384,West South Central
 2021-01-12,United States,usa,9327138.0,27696150.0,332029375.32587004,
 2021-01-13,United States,usa,10278462.0,29380125.0,332029375.32587004,
 2021-01-14,United States,usa,11148991.0,30628175.0,332029375.32587004,
@@ -9809,6 +9853,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,United States,usa,356433665.0,415957645.0,332029375.32587004,
 2021-08-16,United States,usa,357292057.0,415958305.0,332029375.32587004,
 2021-08-17,United States,usa,357894995.0,417477975.0,332029375.32587004,
+2021-08-18,United States,usa,358599835.0,419612925.0,332029375.32587004,
 2021-01-12,Utah,usa,95225.0,256275.0,3205875.0416726633,Mountain
 2021-01-13,Utah,usa,104036.0,266025.0,3205875.0416726633,Mountain
 2021-01-14,Utah,usa,115384.0,267975.0,3205875.0416726633,Mountain
@@ -10027,6 +10072,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Utah,usa,3092477.0,3510600.0,3205875.0416726633,Mountain
 2021-08-16,Utah,usa,3092503.0,3510600.0,3205875.0416726633,Mountain
 2021-08-17,Utah,usa,3092503.0,3518080.0,3205875.0416726633,Mountain
+2021-08-18,Utah,usa,3124993.0,3519230.0,3205875.0416726633,Mountain
 2021-01-12,Vermont,usa,25757.0,64925.0,624003.2423270849,New England
 2021-01-13,Vermont,usa,29571.0,69800.0,624003.2423270849,New England
 2021-01-14,Vermont,usa,29571.0,69800.0,624003.2423270849,New England
@@ -10245,6 +10291,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Vermont,usa,860263.0,960340.0,624003.2423270849,New England
 2021-08-16,Vermont,usa,861072.0,960340.0,624003.2423270849,New England
 2021-08-17,Vermont,usa,861492.0,960790.0,624003.2423270849,New England
+2021-08-18,Vermont,usa,861855.0,967780.0,624003.2423270849,New England
 2021-01-12,Virginia,usa,190607.0,797150.0,8535749.636226041,South Atlantic
 2021-01-13,Virginia,usa,217836.0,845900.0,8535749.636226041,South Atlantic
 2021-01-14,Virginia,usa,217836.0,852725.0,8535749.636226041,South Atlantic
@@ -10463,6 +10510,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Virginia,usa,9922979.0,11158625.0,8535749.636226041,South Atlantic
 2021-08-16,Virginia,usa,9958716.0,11158625.0,8535749.636226041,South Atlantic
 2021-08-17,Virginia,usa,9973219.0,11235045.0,8535749.636226041,South Atlantic
+2021-08-18,Virginia,usa,9989460.0,11271985.0,8535749.636226041,South Atlantic
 2021-01-12,Washington,usa,195567.0,567725.0,7614804.5317374235,Pacific
 2021-01-13,Washington,usa,208238.0,572600.0,7614804.5317374235,Pacific
 2021-01-14,Washington,usa,225238.0,655575.0,7614804.5317374235,Pacific
@@ -10681,6 +10729,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Washington,usa,9214579.0,9994275.0,7614804.5317374235,Pacific
 2021-08-16,Washington,usa,9228085.0,9994275.0,7614804.5317374235,Pacific
 2021-08-17,Washington,usa,9237471.0,10004725.0,7614804.5317374235,Pacific
+2021-08-18,Washington,usa,9251438.0,10068805.0,7614804.5317374235,Pacific
 2021-01-12,West Virginia,usa,103330.0,160975.0,1792128.000254929,South Atlantic
 2021-01-13,West Virginia,usa,110709.0,160975.0,1792128.000254929,South Atlantic
 2021-01-14,West Virginia,usa,118660.0,160975.0,1792128.000254929,South Atlantic
@@ -10899,6 +10948,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,West Virginia,usa,1496486.0,2088325.0,1792128.000254929,South Atlantic
 2021-08-16,West Virginia,usa,1496620.0,2088325.0,1792128.000254929,South Atlantic
 2021-08-17,West Virginia,usa,1497171.0,2142795.0,1792128.000254929,South Atlantic
+2021-08-18,West Virginia,usa,1498343.0,2144815.0,1792128.000254929,South Atlantic
 2021-01-12,Wisconsin,usa,137253.0,429500.0,5822310.899824739,East North Central
 2021-01-13,Wisconsin,usa,137253.0,435900.0,5822310.899824739,East North Central
 2021-01-14,Wisconsin,usa,149955.0,437900.0,5822310.899824739,East North Central
@@ -11117,6 +11167,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Wisconsin,usa,6284010.0,6631145.0,5822310.899824739,East North Central
 2021-08-16,Wisconsin,usa,6300487.0,6631145.0,5822310.899824739,East North Central
 2021-08-17,Wisconsin,usa,6304683.0,6658295.0,5822310.899824739,East North Central
+2021-08-18,Wisconsin,usa,6312584.0,6680125.0,5822310.899824739,East North Central
 2021-01-12,Wyoming,usa,16467.0,47800.0,578756.8140313983,Mountain
 2021-01-13,Wyoming,usa,17794.0,57800.0,578756.8140313983,Mountain
 2021-01-14,Wyoming,usa,19776.0,58775.0,578756.8140313983,Mountain
@@ -11335,6 +11386,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Wyoming,usa,456986.0,545675.0,578756.8140313983,Mountain
 2021-08-16,Wyoming,usa,457035.0,545675.0,578756.8140313983,Mountain
 2021-08-17,Wyoming,usa,461651.0,550145.0,578756.8140313983,Mountain
+2021-08-18,Wyoming,usa,462805.0,552055.0,578756.8140313983,Mountain
 2021-01-12,Alberta,canada,52318.0,59800.0,4428112.0,Prairies
 2021-01-13,Alberta,canada,58144.0,59800.0,4428112.0,Prairies
 2021-01-14,Alberta,canada,66953.0,84175.0,4428112.0,Prairies
@@ -11553,6 +11605,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Alberta,canada,5423834.0,6763255.0,4428112.0,Prairies
 2021-08-16,Alberta,canada,5443763.0,6763255.0,4428112.0,Prairies
 2021-08-17,Alberta,canada,5451895.0,6763255.0,4428112.0,Prairies
+2021-08-18,Alberta,canada,5459338.0,6763255.0,4428112.0,Prairies
 2021-01-12,British Columbia,canada,62294.0,71200.0,5145851.0,British Columbia
 2021-01-13,British Columbia,canada,63430.0,71200.0,5145851.0,British Columbia
 2021-01-14,British Columbia,canada,69746.0,99475.0,5145851.0,British Columbia
@@ -11771,6 +11824,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,British Columbia,canada,7164020.0,7743100.0,5145851.0,British Columbia
 2021-08-16,British Columbia,canada,7230961.0,7743100.0,5145851.0,British Columbia
 2021-08-17,British Columbia,canada,7248039.0,7743100.0,5145851.0,British Columbia
+2021-08-18,British Columbia,canada,7265222.0,7777600.0,5145851.0,British Columbia
 2021-01-12,Manitoba,canada,10353.0,25825.0,1379584.0,Prairies
 2021-01-13,Manitoba,canada,12409.0,25825.0,1379584.0,Prairies
 2021-01-14,Manitoba,canada,12409.0,33625.0,1379584.0,Prairies
@@ -11989,6 +12043,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Manitoba,canada,1853251.0,2435630.0,1379584.0,Prairies
 2021-08-16,Manitoba,canada,1860920.0,2435630.0,1379584.0,Prairies
 2021-08-17,Manitoba,canada,1863425.0,2435630.0,1379584.0,Prairies
+2021-08-18,Manitoba,canada,1865774.0,2435630.0,1379584.0,Prairies
 2021-01-12,New Brunswick,canada,7732.0,11175.0,781315.0,Atlantic
 2021-01-13,New Brunswick,canada,7732.0,11175.0,781315.0,Atlantic
 2021-01-14,New Brunswick,canada,7732.0,17775.0,781315.0,Atlantic
@@ -12207,6 +12262,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,New Brunswick,canada,1068501.0,1306015.0,781315.0,Atlantic
 2021-08-16,New Brunswick,canada,1073519.0,1309695.0,781315.0,Atlantic
 2021-08-17,New Brunswick,canada,1074131.0,1309695.0,781315.0,Atlantic
+2021-08-18,New Brunswick,canada,1077871.0,1309695.0,781315.0,Atlantic
 2021-01-12,Newfoundland,canada,3760.0,8250.0,520998.0,Atlantic
 2021-01-13,Newfoundland,canada,5291.0,11175.0,520998.0,Atlantic
 2021-01-14,Newfoundland,canada,5291.0,11175.0,520998.0,Atlantic
@@ -12425,6 +12481,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Newfoundland,canada,730140.0,850190.0,520998.0,Atlantic
 2021-08-16,Newfoundland,canada,730140.0,850190.0,520998.0,Atlantic
 2021-08-17,Newfoundland,canada,747176.0,850190.0,520998.0,Atlantic
+2021-08-18,Newfoundland,canada,752000.0,850190.0,520998.0,Atlantic
 2021-01-12,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
 2021-01-13,Nova Scotia,canada,3831.0,13450.0,979115.0,Atlantic
 2021-01-14,Nova Scotia,canada,3831.0,23000.0,979115.0,Atlantic
@@ -12643,6 +12700,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Nova Scotia,canada,1403617.0,1661180.0,979115.0,Atlantic
 2021-08-16,Nova Scotia,canada,1409739.0,1661180.0,979115.0,Atlantic
 2021-08-17,Nova Scotia,canada,1411383.0,1661180.0,979115.0,Atlantic
+2021-08-18,Nova Scotia,canada,1414357.0,1661240.0,979115.0,Atlantic
 2021-01-12,Nunavut,canada,29.0,6000.0,39285.0,Territories
 2021-01-13,Nunavut,canada,400.0,6000.0,39285.0,Territories
 2021-01-14,Nunavut,canada,521.0,6000.0,39285.0,Territories
@@ -12861,6 +12919,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Nunavut,canada,43138.0,60360.0,39285.0,Territories
 2021-08-16,Nunavut,canada,43138.0,60360.0,39285.0,Territories
 2021-08-17,Nunavut,canada,43628.0,60360.0,39285.0,Territories
+2021-08-18,Nunavut,canada,43628.0,60360.0,39285.0,Territories
 2021-01-12,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
 2021-01-13,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
 2021-01-14,Northwest Territories,canada,512.0,7200.0,45074.0,Territories
@@ -13079,6 +13138,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Northwest Territories,canada,64729.0,82230.0,45074.0,Territories
 2021-08-16,Northwest Territories,canada,65467.0,82230.0,45074.0,Territories
 2021-08-17,Northwest Territories,canada,65467.0,82230.0,45074.0,Territories
+2021-08-18,Northwest Territories,canada,65467.0,82230.0,45074.0,Territories
 2021-01-12,Ontario,canada,133553.0,196125.0,14733119.0,Ontario
 2021-01-13,Ontario,canada,144784.0,196125.0,14733119.0,Ontario
 2021-01-14,Ontario,canada,159021.0,277050.0,14733119.0,Ontario
@@ -13297,6 +13357,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Ontario,canada,20187843.0,26173971.0,14733119.0,Ontario
 2021-08-16,Ontario,canada,20213876.0,26173971.0,14733119.0,Ontario
 2021-08-17,Ontario,canada,20254502.0,26173971.0,14733119.0,Ontario
+2021-08-18,Ontario,canada,20295518.0,26173971.0,14733119.0,Ontario
 2021-01-12,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-13,Prince Edward Island,canada,4226.0,6075.0,159713.0,Atlantic
 2021-01-14,Prince Edward Island,canada,5102.0,8250.0,159713.0,Atlantic
@@ -13515,6 +13576,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Prince Edward Island,canada,222436.0,272795.0,159713.0,Atlantic
 2021-08-16,Prince Edward Island,canada,222436.0,272795.0,159713.0,Atlantic
 2021-08-17,Prince Edward Island,canada,227230.0,272795.0,159713.0,Atlantic
+2021-08-18,Prince Edward Island,canada,227230.0,272795.0,159713.0,Atlantic
 2021-01-12,Quebec,canada,99510.0,115375.0,8575779.0,Quebec
 2021-01-13,Quebec,canada,107365.0,156325.0,8575779.0,Quebec
 2021-01-14,Quebec,canada,115704.0,162175.0,8575779.0,Quebec
@@ -13733,6 +13795,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Quebec,canada,11828407.0,14044829.0,8575779.0,Quebec
 2021-08-16,Quebec,canada,11865650.0,14044829.0,8575779.0,Quebec
 2021-08-17,Quebec,canada,11910834.0,14044829.0,8575779.0,Quebec
+2021-08-18,Quebec,canada,11955029.0,14045495.0,8575779.0,Quebec
 2021-01-12,Saskatchewan,canada,9880.0,17575.0,1177884.0,Prairies
 2021-01-13,Saskatchewan,canada,10400.0,17575.0,1177884.0,Prairies
 2021-01-14,Saskatchewan,canada,11985.0,24400.0,1177884.0,Prairies
@@ -13951,6 +14014,7 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Saskatchewan,canada,1446661.0,2004075.0,1177884.0,Prairies
 2021-08-16,Saskatchewan,canada,1447827.0,2004075.0,1177884.0,Prairies
 2021-08-17,Saskatchewan,canada,1448368.0,2004075.0,1177884.0,Prairies
+2021-08-18,Saskatchewan,canada,1450358.0,2004075.0,1177884.0,Prairies
 2021-01-12,Yukon,canada,495.0,7200.0,42176.0,Territories
 2021-01-13,Yukon,canada,685.0,7200.0,42176.0,Territories
 2021-01-14,Yukon,canada,685.0,7200.0,42176.0,Territories
@@ -14169,3 +14233,4 @@ date,location,country,total_vaccinations_raw,total_distributed_raw,pop_est,divis
 2021-08-15,Yukon,canada,64263.0,66670.0,42176.0,Territories
 2021-08-16,Yukon,canada,64263.0,66670.0,42176.0,Territories
 2021-08-17,Yukon,canada,64398.0,66670.0,42176.0,Territories
+2021-08-18,Yukon,canada,64398.0,66670.0,42176.0,Territories
