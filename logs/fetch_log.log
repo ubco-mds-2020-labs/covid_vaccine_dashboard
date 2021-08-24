@@ -54403,3 +54403,7 @@ INFO:root:2021-08-23 23:53:03.615307: script executed successfully
 INFO:root:2021-08-23 23:59:31.930085: starting script execution
 INFO:root:2021-08-23 23:59:32.860126: no new data found
 INFO:root:2021-08-23 23:59:32.860269: script executed successfully
+INFO:root:2021-08-24 00:12:59.382743: starting script execution
+WARNING:root:2021-08-24 00:13:00.329433: countries out of sync
+INFO:root:2021-08-24 00:13:00.491595: new data found, writing to CSV
+INFO:root:2021-08-24 00:13:00.491725: script executed successfully
