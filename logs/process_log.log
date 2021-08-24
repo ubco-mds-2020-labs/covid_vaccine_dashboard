@@ -50611,3 +50611,6 @@ INFO:root:2021-08-24 19:57:07.783404: script executed successfully
 INFO:root:2021-08-24 20:04:12.393099: starting script execution
 INFO:root:2021-08-24 20:04:12.393269: no new data to process
 INFO:root:2021-08-24 20:04:12.393320: script executed successfully
+INFO:root:2021-08-24 20:12:51.848083: starting script execution
+INFO:root:2021-08-24 20:12:51.848197: new data found, processing
+INFO:root:2021-08-24 20:12:52.427812: script executed successfully
