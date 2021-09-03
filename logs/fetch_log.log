@@ -60179,3 +60179,7 @@ INFO:root:2021-09-03 20:10:47.925089: starting script execution
 WARNING:root:2021-09-03 20:10:48.670676: countries out of sync
 INFO:root:2021-09-03 20:10:48.834544: new data found, writing to CSV
 INFO:root:2021-09-03 20:10:48.834672: script executed successfully
+INFO:root:2021-09-03 20:21:29.558425: starting script execution
+WARNING:root:2021-09-03 20:21:30.615968: countries out of sync
+INFO:root:2021-09-03 20:21:30.650603: no new data found
+INFO:root:2021-09-03 20:21:30.650769: script executed successfully
