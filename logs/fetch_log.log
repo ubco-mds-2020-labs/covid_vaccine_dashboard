@@ -60207,3 +60207,7 @@ INFO:root:2021-09-03 21:04:19.937967: starting script execution
 WARNING:root:2021-09-03 21:04:20.945066: countries out of sync
 INFO:root:2021-09-03 21:04:20.973302: no new data found
 INFO:root:2021-09-03 21:04:20.973380: script executed successfully
+INFO:root:2021-09-03 21:12:51.993893: starting script execution
+WARNING:root:2021-09-03 21:12:52.894986: countries out of sync
+INFO:root:2021-09-03 21:12:52.919561: no new data found
+INFO:root:2021-09-03 21:12:52.919658: script executed successfully
