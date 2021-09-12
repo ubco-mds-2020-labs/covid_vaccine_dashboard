@@ -64865,3 +64865,6 @@ INFO:root:2021-09-12 01:16:31.221816: starting script execution
 WARNING:root:2021-09-12 01:16:32.358210: countries out of sync
 INFO:root:2021-09-12 01:16:32.388217: no new data found
 INFO:root:2021-09-12 01:16:32.388332: script executed successfully
+INFO:root:2021-09-12 01:43:55.879244: starting script execution
+INFO:root:2021-09-12 01:43:57.970386: new data found, writing to CSV
+INFO:root:2021-09-12 01:43:57.970549: script executed successfully
